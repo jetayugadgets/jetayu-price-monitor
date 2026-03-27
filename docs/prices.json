@@ -1,0 +1,17 @@
+{
+  "scraped_at": "2026-03-28T00:00:00+00:00",
+  "products": [
+    {
+      "id": 1,
+      "name": "Neo Fly More Combo",
+      "prices": {
+        "Jetayu":     { "price": 46900, "url": "https://jetayugadgets.com/products/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery", "scraped_ok": true },
+        "Xboom":      { "price": 46900, "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-fly-more-combo/", "scraped_ok": true },
+        "Everse":     { "price": 45000, "url": "https://everse.in/product/dji-neo-fly-more-combo", "scraped_ok": true },
+        "Airytek":    { "price": 47500, "url": "https://airytek.com/dji-neo-drone-fly-more-combo/", "scraped_ok": true },
+        "Hobitech":   { "price": null,  "url": "https://hobitech.in/product/dji-neo-motion-fly-more-combo/", "scraped_ok": false },
+        "Designinfo": { "price": 43999, "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/", "scraped_ok": true }
+      }
+    }
+  ]
+}
