@@ -1,16 +1,615 @@
 {
-  "scraped_at": "2026-03-28T00:00:00+00:00",
+  "scraped_at": "2026-03-27T22:45:00.694204+00:00",
   "products": [
     {
       "id": 1,
       "name": "Neo Fly More Combo",
       "prices": {
-        "Jetayu":     { "price": 46900, "url": "https://jetayugadgets.com/products/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery", "scraped_ok": true },
-        "Xboom":      { "price": 46900, "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-fly-more-combo/", "scraped_ok": true },
-        "Everse":     { "price": 45000, "url": "https://everse.in/product/dji-neo-fly-more-combo", "scraped_ok": true },
-        "Airytek":    { "price": 47500, "url": "https://airytek.com/dji-neo-drone-fly-more-combo/", "scraped_ok": true },
-        "Hobitech":   { "price": null,  "url": "https://hobitech.in/product/dji-neo-motion-fly-more-combo/", "scraped_ok": false },
-        "Designinfo": { "price": 43999, "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/", "scraped_ok": true }
+        "Jetayu": {
+          "price": 69499,
+          "url": "https://jetayugadgets.com/products/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 46900,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-neo-fly-more-combo",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 45000,
+          "url": "https://airytek.com/dji-neo-drone-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 74990,
+          "url": "https://hobitech.in/product/dji-neo-motion-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 49000,
+          "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Neo Standard",
+      "prices": {
+        "Jetayu": {
+          "price": 29499,
+          "url": "https://jetayugadgets.com/products/dji-neo-standard-drone-only",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Mini 2 SE Standard",
+      "prices": {
+        "Jetayu": {
+          "price": 45999,
+          "url": "https://jetayugadgets.com/products/dji-mini-2-se-standard",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 45999,
+          "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-mini-2se-standard",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 46000,
+          "url": "https://airytek.com/dji-mini-2-se-drone/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 55990,
+          "url": "https://hobitech.in/product/dji-mini-2-se-standard-drone/",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 51000,
+          "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Mini 4K Fly More Combo",
+      "prices": {
+        "Jetayu": {
+          "price": 64990,
+          "url": "https://jetayugadgets.com/products/dji-mini-4k-fly-more-combo",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 64999,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-4k-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-mini-4k-fly-more-combo",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 64999,
+          "url": "https://airytek.com/dji-mini-4k-drone-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 67990,
+          "url": "https://hobitech.in/product/dji-mini-4k-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 75000,
+          "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Mini 3 Fly More Combo with RC",
+      "prices": {
+        "Jetayu": {
+          "price": 84499,
+          "url": "https://jetayugadgets.com/products/dji-mini-3-fly-more-combo-drone-camera-with-rc",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 89500,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-3-fly-more-combo-remote-controller-with-screen/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-mini-3-fly-more-combo-drone-camera-with-rc",
+          "scraped_ok": false
+        },
+        "Hobitech": {
+          "price": 87990,
+          "url": "https://hobitech.in/product/dji-mini-3-fly-more-combo-dji-rc-51/",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 85000,
+          "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Flip Fly More Combo",
+      "prices": {
+        "Jetayu": {
+          "price": 82949,
+          "url": "https://jetayugadgets.com/products/dji-flip-fly-more-combo-dji-rc-2",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 83900,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-flip/dji-flip-flymore-combo-dji-rc-2/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-flip-fly-more-combo-dji-rc-2",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 85000,
+          "url": "https://airytek.com/dji-flip-fly-more-combo-dji-rc-2-3-batteries/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 87990,
+          "url": "https://hobitech.in/product/dji-flip-fly-more-combo-dji-rc-2/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": "Mini 4 Pro Fly More Combo – 34 min",
+      "prices": {
+        "Jetayu": {
+          "price": 104499,
+          "url": "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-dji-rc-2-34-mins",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 104999,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-fly-more-combo-37-min/",
+          "scraped_ok": true
+        },
+        "Airytek": {
+          "price": 115000,
+          "url": "https://airytek.com/dji-mini-4-pro-drone-fly-more-combo-with-rc-2-controller/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 104990,
+          "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "Mini 4 Pro Fly More Combo Plus – 45 min",
+      "prices": {
+        "Jetayu": {
+          "price": 107499,
+          "url": "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-plus-45-mins",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 109999,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-drone-camera-fly-more-combo-plus/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-mini-4-pro-drone-camera-fly-more-combo-plus-45-mins",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 115000,
+          "url": "https://airytek.com/dji-mini-4-pro-drone-fly-more-combo-plus-with-rc-2-controller/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 109990,
+          "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-plus-dji-rc-2/",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 125000,
+          "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": "Mini 5 Pro Fly More Combo – 36 min",
+      "prices": {
+        "Jetayu": {
+          "price": 125999,
+          "url": "https://jetayugadgets.com/products/dji-mini-5-pro-fly-more-combo-36-mins",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 134000,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro-fly-more-combo-dji-rc-2/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/mini-5-pro-combo-36-min",
+          "scraped_ok": false
+        },
+        "Designinfo": {
+          "price": 135999,
+          "url": "https://www.designinfo.in/p/dji-mini-5-pro-fly-more-combo-series-drone-36-min-battery/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": "Mini 5 Pro Fly More Combo Plus – 52 min",
+      "prices": {
+        "Jetayu": {
+          "price": 134999,
+          "url": "https://jetayugadgets.com/products/dji-mini-5-pro-flymore-combo-plus-52-mins",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 139000,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-mini-5-pro",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 140000,
+          "url": "https://airytek.com/dji-mini-5-pro-combo-plus/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 134990,
+          "url": "https://hobitech.in/product/dji-mini-5-pro-fly-more-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Air 3S Fly More Combo RC2",
+      "prices": {
+        "Jetayu": {
+          "price": 162999,
+          "url": "https://jetayugadgets.com/products/dji-air-3s-fly-more-combo-dji-rc-2",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 176999,
+          "url": "https://www.xboom.in/shop/drone-shop-by-price/rs-1-3l-rs-1-5l/dji-air-3s-fly-more-combo-dji-rc-2/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-air-3s-fly-more-combo-with-smart-controller",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 164999,
+          "url": "https://airytek.com/dji-air-3s-fly-more-combo-drone-with-3-batteries-rc2-remote/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 163990,
+          "url": "https://hobitech.in/product/dji-air-3s-fly-more-combo-2/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": "Mavic 4 Pro Standard",
+      "prices": {
+        "Jetayu": {
+          "price": 229000,
+          "url": "https://jetayugadgets.com/products/dji-mavic-4-pro-standard",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-mavic-4-pro",
+          "scraped_ok": false
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": "Mavic 4 Pro Fly More Combo",
+      "prices": {
+        "Jetayu": {
+          "price": 294999,
+          "url": "https://jetayugadgets.com/products/dji-mavic-4-pro-fly-more-combo-dji-rc-2",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 299999,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-flymore-combo/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-mavic-4-pro-drone-fly-more-combo-with-rc-2-remote-controller",
+          "scraped_ok": false
+        },
+        "Hobitech": {
+          "price": 283990,
+          "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "Mavic 4 Pro 512GB Creator Combo",
+      "prices": {
+        "Jetayu": {
+          "price": 394999,
+          "url": "https://jetayugadgets.com/products/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 390000,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-mavic-4-pro-drone-creator-combo-with-rc-pro-2-remote-controller",
+          "scraped_ok": false
+        },
+        "Hobitech": {
+          "price": 397990,
+          "url": "https://hobitech.in/product/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": "Neo 2 Combo",
+      "prices": {
+        "Jetayu": {
+          "price": 61999,
+          "url": "https://jetayugadgets.com/products/dji-neo-2-fly-more-combo",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 62999,
+          "url": "https://www.xboom.in/shop/drones/selfie-drone/dji-neo/dji-neo-2-4k-smart-drone/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/category/dji-neo-series",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 64999,
+          "url": "https://airytek.com/dji-neo-2-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 64990,
+          "url": "https://hobitech.in/product/dji-neo-2-drone-camera/",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 72000,
+          "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": "Neo 2 Motion Fly More Combo",
+      "prices": {
+        "Jetayu": {
+          "price": 85999,
+          "url": "https://jetayugadgets.com/products/dji-neo-2-motion-fly-more-combo",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 86999,
+          "url": "https://www.xboom.in/shop/drones/selfie-drone/dji-neo/dji-neo-2-fly-motion-flymore-combo/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-neo-2-motion-fly-more-combo",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 79999,
+          "url": "https://airytek.com/dji-neo-2-motion-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 84990,
+          "url": "https://hobitech.in/product/dji-neo-2-motion-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 84000,
+          "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "Neo Motion Combo",
+      "prices": {
+        "Jetayu": {
+          "price": 69499,
+          "url": "https://jetayugadgets.com/products/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 64900,
+          "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-motion-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-neo-motion-fly-more-combo",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 68000,
+          "url": "https://airytek.com/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 74990,
+          "url": "https://hobitech.in/product/dji-neo-motion-fly-more-combo/",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 84000,
+          "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": "DJI M4T (Mavic 4 Thermal)",
+      "prices": {
+        "Jetayu": {
+          "price": 649000,
+          "url": "https://jetayugadgets.com/products/dji-matrice-4-thermal-m4t",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 649900,
+          "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-4t/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-matrice-4t-worry-free-plus-combo",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 655000,
+          "url": "https://airytek.com/dji-matrice-4t-worry-free-plus-combo/",
+          "scraped_ok": true
+        },
+        "Hobitech": {
+          "price": 649990,
+          "url": "https://hobitech.in/product/dji-matrice-4t-worry-free-plus-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": "DJI M4E (Mavic 4 Enterprise)",
+      "prices": {
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-matrice-4e-worry-free-plus-combo",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": 505000,
+          "url": "https://airytek.com/dji-matrice-4e/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": "DJI Matrice 350 (M350)",
+      "prices": {
+        "Jetayu": {
+          "price": 795000,
+          "url": "https://jetayugadgets.com/products/dji-matrice-350-rtk-m350-rtk",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 949000,
+          "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-350-rtk-basic-combo-drone/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-matrice-350-rtk-m350-basic-combo-drone",
+          "scraped_ok": false
+        },
+        "Airytek": {
+          "price": null,
+          "url": "https://airytek.com/dji-matrice-350-rtk-worry-free-basic-combo/",
+          "scraped_ok": false
+        },
+        "Hobitech": {
+          "price": 970000,
+          "url": "https://hobitech.in/product/dji-matrice-350-rtk-drone/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": "DJI Matrice 400 (M400)",
+      "prices": {
+        "Jetayu": {
+          "price": 1150000,
+          "url": "https://jetayugadgets.com/products/dji-matrice-400-m400",
+          "scraped_ok": true
+        },
+        "Xboom": {
+          "price": 989000,
+          "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-400/",
+          "scraped_ok": true
+        },
+        "Everse": {
+          "price": null,
+          "url": "https://everse.in/product/dji-matrice-400",
+          "scraped_ok": false
+        },
+        "Hobitech": {
+          "price": 900000,
+          "url": "https://hobitech.in/product/dji-matrice-400/",
+          "scraped_ok": true
+        }
       }
     }
   ]
