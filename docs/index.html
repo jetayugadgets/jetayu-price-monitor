@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jetayu Gadgets — Price Monitor</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --accent: #4f8ef7;
+      --green: #34d399;
+      --red: #f87171;
+      --yellow: #fbbf24;
+      --text: #e2e8f0;
+      --muted: #64748b;
+      --jetayu: #6366f1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; min-height: 100vh; }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 32px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    header h1 { font-size: 1.2rem; font-weight: 700; color: var(--accent); }
+    #last-scraped { font-size: 0.75rem; color: var(--muted); }
+
+    .controls {
+      padding: 16px 32px;
+      display: flex; gap: 12px; flex-wrap: wrap; align-items: center;
+    }
+    input[type="search"] {
+      background: var(--surface); border: 1px solid var(--border);
+      color: var(--text); padding: 8px 14px; border-radius: 8px;
+      font-size: 0.9rem; width: 260px; outline: none;
+    }
+    input[type="search"]:focus { border-color: var(--accent); }
+
+    .table-wrap { padding: 0 32px 48px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+    th {
+      background: var(--surface); color: var(--muted); font-weight: 600;
+      padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border);
+      white-space: nowrap; position: sticky; top: 0; z-index: 1;
+    }
+    td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    tr:hover td { background: rgba(255,255,255,0.02); }
+
+    .product-name { font-weight: 600; color: var(--text); }
+    td:first-child { color: var(--muted); font-size: 0.75rem; }
+
+    .price-cell { text-align: right; white-space: nowrap; }
+    .price-cell a { text-decoration: none; }
+    .price-tag {
+      display: inline-block; padding: 3px 8px; border-radius: 6px;
+      font-weight: 600; font-size: 0.8rem;
+    }
+    .price-lowest  { background: rgba(52,211,153,0.15); color: var(--green); }
+    .price-highest { background: rgba(248,113,113,0.12); color: var(--red); }
+    .price-mid     { background: rgba(255,255,255,0.05); color: var(--text); }
+    .price-jetayu  { background: rgba(99,102,241,0.18); color: #a5b4fc; }
+    .price-na      { color: var(--muted); font-size: 0.75rem; }
+
+    .legend {
+      display: flex; gap: 16px; padding: 0 32px 16px; flex-wrap: wrap;
+    }
+    .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.78rem; color: var(--muted); }
+    .dot { width: 10px; height: 10px; border-radius: 3px; }
+
+    #loading { text-align: center; padding: 80px; color: var(--muted); font-size: 1rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🚁 Jetayu Gadgets — Competitor Price Monitor</h1>
+  <span id="last-scraped">Loading…</span>
+</header>
+
+<div class="controls">
+  <input type="search" id="search" placeholder="Search product…" />
+</div>
+
+<div class="legend">
+  <span class="legend-item"><span class="dot" style="background:#6366f1"></span>Jetayu (us)</span>
+  <span class="legend-item"><span class="dot" style="background:#34d399"></span>Lowest competitor</span>
+  <span class="legend-item"><span class="dot" style="background:#f87171"></span>Highest competitor</span>
+  <span class="legend-item"><span class="dot" style="background:rgba(255,255,255,0.08)"></span>Mid range</span>
+</div>
+
+<div class="table-wrap">
+  <div id="loading">Loading price data…</div>
+  <table id="price-table" style="display:none">
+    <thead id="thead"></thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+const COMPETITORS = ["Jetayu", "Xboom", "Everse", "Airytek", "Hobitech", "Designinfo"];
+const fmt = n => n ? "₹" + n.toLocaleString("en-IN") : null;
+
+async function load() {
+  const res = await fetch("data/prices.json");
+  const data = await res.json();
+
+  document.getElementById("last-scraped").textContent =
+    "Last scraped: " + new Date(data.scraped_at).toLocaleString("en-IN", { timeZone: "Asia/Kolkata" }) + " IST";
+
+  // Build table header
+  const thead = document.getElementById("thead");
+  thead.innerHTML = `<tr>
+    <th>#</th>
+    <th>Product</th>
+    ${COMPETITORS.map(c => `<th>${c}</th>`).join("")}
+    <th>Savings vs Lowest</th>
+  </tr>`;
+
+  // Build rows
+  const tbody = document.getElementById("tbody");
+  let html = "";
+
+  for (const p of data.products) {
+    // Gather competitor prices (exclude Jetayu for min/max calc)
+    const competitorPrices = COMPETITORS
+      .filter(c => c !== "Jetayu" && p.prices[c]?.price)
+      .map(c => p.prices[c].price);
+
+    const jetayuPrice = p.prices["Jetayu"]?.price;
+    const lowestComp  = competitorPrices.length ? Math.min(...competitorPrices) : null;
+    const highestComp = competitorPrices.length ? Math.max(...competitorPrices) : null;
+    const savings = (jetayuPrice && lowestComp) ? lowestComp - jetayuPrice : null;
+
+    const cells = COMPETITORS.map(c => {
+      const entry = p.prices[c];
+      if (!entry) return `<td class="price-cell"><span class="price-na">—</span></td>`;
+
+      const price = entry.price;
+      const url   = entry.url;
+      const tag   = fmt(price);
+
+      if (!tag) return `<td class="price-cell"><span class="price-na">N/A</span></td>`;
+
+      let cls = "price-mid";
+      if (c === "Jetayu")            cls = "price-jetayu";
+      else if (price === lowestComp) cls = "price-lowest";
+      else if (price === highestComp) cls = "price-highest";
+
+      return `<td class="price-cell">
+        <a href="${url}" target="_blank" title="Open ${c} page">
+          <span class="price-tag ${cls}">${tag}</span>
+        </a>
+      </td>`;
+    }).join("");
+
+    const savingsCell = savings !== null
+      ? `<td class="price-cell"><span class="price-tag ${savings > 0 ? "price-lowest" : savings < 0 ? "price-highest" : "price-mid"}">${savings > 0 ? "+" : ""}${fmt(savings)}</span></td>`
+      : `<td class="price-cell"><span class="price-na">—</span></td>`;
+
+    html += `<tr data-name="${p.name.toLowerCase()}">
+      <td>${p.id}</td>
+      <td class="product-name">${p.name}</td>
+      ${cells}
+      ${savingsCell}
+    </tr>`;
+  }
+
+  tbody.innerHTML = html;
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("price-table").style.display = "table";
+}
+
+document.getElementById("search").addEventListener("input", function () {
+  const q = this.value.toLowerCase();
+  document.querySelectorAll("#tbody tr").forEach(tr => {
+    tr.style.display = tr.dataset.name.includes(q) ? "" : "none";
+  });
+});
+
+load().catch(e => {
+  document.getElementById("loading").textContent = "Failed to load data: " + e.message;
+});
+</script>
+</body>
+</html>
