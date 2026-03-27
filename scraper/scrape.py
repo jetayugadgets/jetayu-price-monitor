@@ -421,7 +421,7 @@ def scrape_all() -> dict:
 if __name__ == "__main__":
     import sys, pathlib
     data = scrape_all()
-    out = pathlib.Path("data/prices.json")
+    out = pathlib.Path("docs/prices.json")
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False))
     log.info(f"Saved → {out}")
