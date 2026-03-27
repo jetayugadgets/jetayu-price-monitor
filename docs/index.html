@@ -105,7 +105,7 @@ const COMPETITORS = ["Jetayu", "Xboom", "Everse", "Airytek", "Hobitech", "Design
 const fmt = n => n ? "₹" + n.toLocaleString("en-IN") : null;
 
 async function load() {
-  const res = await fetch("data/prices.json");
+  const res = await fetch("../data/prices.json");
   const data = await res.json();
 
   document.getElementById("last-scraped").textContent =
