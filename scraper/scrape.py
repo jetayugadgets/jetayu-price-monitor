@@ -23,11 +23,13 @@ PRODUCTS = [
     {
         "id": 1, "name": "Neo Fly More Combo",
         "urls": {
-            "Jetayu":      "https://jetayugadgets.com/products/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery",
+            # "Jetayu":      "https://jetayugadgets.com/products/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery",
+            "Jetayu":      "https://jetayugadgets.com/products/dji-neo-fly-more-drone-combo-with-3-batteries-remote-charging-hub",
             "Xboom":       "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-fly-more-combo/",
             "Everse":      "https://everse.in/product/dji-neo-fly-more-combo",
             "Airytek":     "https://airytek.com/dji-neo-drone-fly-more-combo/",
-            "Hobitech":    "https://hobitech.in/product/dji-neo-motion-fly-more-combo/",
+            # "Hobitech":    "https://hobitech.in/product/dji-neo-motion-fly-more-combo/",
+            "Hobitech":    "https://hobitech.in/product/dji-neo-fly-more-drone-combo-with-3-batteries/",
             "Designinfo":  "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/",
         }
     },
@@ -35,6 +37,7 @@ PRODUCTS = [
         "id": 2, "name": "Neo Standard",
         "urls": {
             "Jetayu":      "https://jetayugadgets.com/products/dji-neo-standard-drone-only",
+            "Everse": "https://everse.in/product/dji-neo-no-rc"
         }
     },
     {
@@ -83,6 +86,7 @@ PRODUCTS = [
         "id": 7, "name": "Mini 4 Pro Fly More Combo – 34 min",
         "urls": {
             "Jetayu":      "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-dji-rc-2-34-mins",
+            "Everse":   "https://everse.in/product/dji-mini-4-pro-drone-camera-fly-more-combo-dji-rc-2-34-mins",
             "Xboom":       "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-fly-more-combo-37-min/",
             "Airytek":     "https://airytek.com/dji-mini-4-pro-drone-fly-more-combo-with-rc-2-controller/",
             "Hobitech":    "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
@@ -150,6 +154,7 @@ PRODUCTS = [
             "Jetayu":      "https://jetayugadgets.com/products/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2",
             "Xboom":       "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
             "Everse":      "https://everse.in/product/dji-mavic-4-pro-drone-creator-combo-with-rc-pro-2-remote-controller",
+           "Airytek":    "https://airytek.com/dji-mavic-4-pro-drone-with-512gb-creator-combo/",
             "Hobitech":    "https://hobitech.in/product/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
         }
     },
@@ -196,8 +201,10 @@ PRODUCTS = [
         }
     },
     {
-        "id": 19, "name": "DJI M4E (Mavic 4 Enterprise)",
+        "id": 19, "name": "DJI M4E (Matrice 4 Enterprise)",
         "urls": {
+           "Jetayu":  "https://jetayugadgets.com/products/dji-matrice-4-enterprise-m4e",
+            "Xboom":"https://www.xboom.in/shop/brands/dji/dji-enterprise-series/dji-matrice-4e/",
             "Everse":      "https://everse.in/product/dji-matrice-4e-worry-free-plus-combo",
             "Airytek":     "https://airytek.com/dji-matrice-4e/",
         }
