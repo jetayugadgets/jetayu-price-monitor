@@ -610,7 +610,6 @@
 
       /* ── Touch Scroll Enhancements ── */
       .table-wrap {
-        touch-action: pan-x;
         overscroll-behavior: contain;
         -webkit-overflow-scrolling: touch;
         cursor: grab;
@@ -618,30 +617,6 @@
 
       .table-wrap:active {
         cursor: grabbing;
-      }
-
-      .table-wrap::-webkit-scrollbar {
-        height: 8px;
-      }
-
-      .table-wrap::-webkit-scrollbar-track {
-        background: var(--surface);
-        border-radius: 4px;
-      }
-
-      .table-wrap::-webkit-scrollbar-thumb {
-        background: var(--border2);
-        border-radius: 4px;
-      }
-
-      .table-wrap::-webkit-scrollbar-thumb:hover {
-        background: var(--muted);
-      }
-
-      /* Firefox scrollbar */
-      .table-wrap {
-        scrollbar-width: thin;
-        scrollbar-color: var(--border2) var(--surface);
       }
     </style>
   </head>
@@ -889,36 +864,45 @@
           }
         });
 
-        // Touch scroll
+        // Touch scroll — only intercept horizontal swipes, let vertical scroll pass through
         let touchStartX = 0;
+        let touchStartY = 0;
         let touchScrollLeft = 0;
         let touchHasScrolled = false;
 
         tableWrap.addEventListener("touchstart", (e) => {
           touchStartX = e.touches[0].pageX;
+          touchStartY = e.touches[0].pageY;
           touchScrollLeft = tableWrap.scrollLeft;
           touchHasScrolled = false;
         }, { passive: true });
 
         tableWrap.addEventListener("touchmove", (e) => {
-          const touchX = e.touches[0].pageX;
-          const walk = touchStartX - touchX;
-          if (Math.abs(walk) > 8) {
-            touchHasScrolled = true;
-            tableWrap.classList.add("scroll-hint");
-          }
-          tableWrap.scrollLeft = touchScrollLeft + walk;
-        }, { passive: true });
+          const deltaX = touchStartX - e.touches[0].pageX;
+          const deltaY = touchStartY - e.touches[0].pageY;
 
-        tableWrap.addEventListener("touchend", (e) => {
+          // Only intercept if horizontal movement dominates (prevents vertical scroll blocking)
+          if (!touchHasScrolled) {
+            if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 8) {
+              touchHasScrolled = true;
+              tableWrap.classList.add("scroll-hint");
+            }
+          }
+
           if (touchHasScrolled) {
             e.preventDefault();
+            tableWrap.scrollLeft = touchScrollLeft + deltaX;
           }
-          // Hide scroll hint after scrolling stops
-          setTimeout(() => {
-            tableWrap.classList.remove("scroll-hint");
-          }, 1500);
         }, { passive: false });
+
+        tableWrap.addEventListener("touchend", () => {
+          if (touchHasScrolled) {
+            // Hide scroll hint after scrolling stops
+            setTimeout(() => {
+              tableWrap.classList.remove("scroll-hint");
+            }, 1500);
+          }
+        });
 
         // Show scroll hint on load if table is wider than viewport
         function checkOverflow() {
