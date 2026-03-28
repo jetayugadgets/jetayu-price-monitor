@@ -179,11 +179,14 @@
       .table-wrap {
         padding: 4px 32px 64px;
         overflow-x: auto;
+        overflow-y: auto;
+        max-height: calc(100vh - 200px);
       }
 
       /* Scrollbar */
       .table-wrap::-webkit-scrollbar {
         height: 6px;
+        width: 6px;
       }
       .table-wrap::-webkit-scrollbar-track {
         background: var(--surface);
@@ -191,6 +194,12 @@
       .table-wrap::-webkit-scrollbar-thumb {
         background: var(--border2);
         border-radius: 3px;
+      }
+      .table-wrap::-webkit-scrollbar-thumb:hover {
+        background: var(--muted);
+      }
+      .table-wrap::-webkit-scrollbar-corner {
+        background: var(--surface);
       }
 
       table {
@@ -508,25 +517,7 @@
 
         .table-wrap {
           padding: 4px 16px 80px;
-          position: relative;
-        }
-
-        /* Mobile scroll hint indicator */
-        .table-wrap::after {
-          content: "";
-          position: absolute;
-          right: 0;
-          top: 0;
-          bottom: 0;
-          width: 40px;
-          background: linear-gradient(to right, transparent, var(--bg));
-          pointer-events: none;
-          opacity: 0;
-          transition: opacity 0.3s;
-        }
-
-        .table-wrap.scroll-hint::after {
-          opacity: 1;
+          max-height: calc(100vh - 180px);
         }
 
         table {
@@ -595,6 +586,7 @@
 
         .table-wrap {
           padding: 4px 12px 80px;
+          max-height: calc(100vh - 180px);
         }
 
         .product-name {
@@ -608,16 +600,6 @@
         }
       }
 
-      /* ── Touch Scroll Enhancements ── */
-      .table-wrap {
-        overscroll-behavior: contain;
-        -webkit-overflow-scrolling: touch;
-        cursor: grab;
-      }
-
-      .table-wrap:active {
-        cursor: grabbing;
-      }
     </style>
   </head>
   <body>
@@ -821,108 +803,6 @@
           `<span style="color:#f87171">Failed to load data: ${e.message}</span>`;
       });
 
-      // ── Touch Swipe Horizontal Scroll ──
-      (function () {
-        const tableWrap = document.querySelector(".table-wrap");
-        if (!tableWrap) return;
-
-        let startX = 0;
-        let scrollLeft = 0;
-        let isDragging = false;
-        let hasScrolled = false;
-
-        // Mouse drag scroll
-        tableWrap.addEventListener("mousedown", (e) => {
-          if (e.target.closest("a")) return;
-          isDragging = true;
-          hasScrolled = false;
-          startX = e.pageX - tableWrap.offsetLeft;
-          scrollLeft = tableWrap.scrollLeft;
-          tableWrap.style.cursor = "grabbing";
-        });
-
-        document.addEventListener("mouseup", () => {
-          isDragging = false;
-          tableWrap.style.cursor = "grab";
-        });
-
-        document.addEventListener("mousemove", (e) => {
-          if (!isDragging) return;
-          e.preventDefault();
-          const x = e.pageX - tableWrap.offsetLeft;
-          const walk = (x - startX) * 1.5;
-          if (Math.abs(walk) > 5) hasScrolled = true;
-          tableWrap.scrollLeft = scrollLeft - walk;
-        });
-
-        // Prevent link clicks when dragging
-        tableWrap.addEventListener("click", (e) => {
-          if (hasScrolled && e.target.closest("a")) {
-            e.preventDefault();
-            e.stopPropagation();
-            hasScrolled = false;
-          }
-        });
-
-        // Touch scroll — only intercept horizontal swipes, let vertical scroll pass through
-        let touchStartX = 0;
-        let touchStartY = 0;
-        let touchScrollLeft = 0;
-        let touchHasScrolled = false;
-
-        tableWrap.addEventListener("touchstart", (e) => {
-          touchStartX = e.touches[0].pageX;
-          touchStartY = e.touches[0].pageY;
-          touchScrollLeft = tableWrap.scrollLeft;
-          touchHasScrolled = false;
-        }, { passive: true });
-
-        tableWrap.addEventListener("touchmove", (e) => {
-          const deltaX = touchStartX - e.touches[0].pageX;
-          const deltaY = touchStartY - e.touches[0].pageY;
-
-          // Only intercept if horizontal movement dominates (prevents vertical scroll blocking)
-          if (!touchHasScrolled) {
-            if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 8) {
-              touchHasScrolled = true;
-              tableWrap.classList.add("scroll-hint");
-            }
-          }
-
-          if (touchHasScrolled) {
-            e.preventDefault();
-            tableWrap.scrollLeft = touchScrollLeft + deltaX;
-          }
-        }, { passive: false });
-
-        tableWrap.addEventListener("touchend", () => {
-          if (touchHasScrolled) {
-            // Hide scroll hint after scrolling stops
-            setTimeout(() => {
-              tableWrap.classList.remove("scroll-hint");
-            }, 1500);
-          }
-        });
-
-        // Show scroll hint on load if table is wider than viewport
-        function checkOverflow() {
-          if (tableWrap.scrollWidth > tableWrap.clientWidth + 10) {
-            tableWrap.classList.add("scroll-hint");
-            setTimeout(() => {
-              tableWrap.classList.remove("scroll-hint");
-            }, 2000);
-          }
-        }
-
-        // Check on load and resize
-        if (document.readyState === "loading") {
-          document.addEventListener("DOMContentLoaded", () => setTimeout(checkOverflow, 500));
-        } else {
-          setTimeout(checkOverflow, 500);
-        }
-
-        window.addEventListener("resize", checkOverflow);
-      })();
     </script>
   </body>
 </html>
