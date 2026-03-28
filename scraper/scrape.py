@@ -1,5 +1,6 @@
 """
 Jetayu Gadgets — Competitor Price Monitor
+Uses curl_cffi to impersonate Chrome TLS fingerprint — bypasses Cloudflare.
 """
 
 import json
@@ -11,7 +12,7 @@ import pathlib
 from datetime import datetime, timezone
 from typing import Optional
 
-import requests
+from curl_cffi import requests as cffi_requests
 from bs4 import BeautifulSoup
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -222,31 +223,6 @@ PRODUCTS = [
     },
 ]
 
-# ─── Headers ─────────────────────────────────────────────────────────────────
-
-# Standard headers for most sites
-HEADERS_DEFAULT = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "Accept-Language": "en-IN,en;q=0.9",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-    "Cache-Control": "max-age=0",
-}
-
-# Extra headers for Cloudflare-protected sites
-HEADERS_CF = {
-    **HEADERS_DEFAULT,
-    "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"Windows"',
-}
-
 # ─── Helpers ─────────────────────────────────────────────────────────────────
 
 def clean_price(text: str) -> Optional[int]:
@@ -257,137 +233,149 @@ def clean_price(text: str) -> Optional[int]:
     return int(m.group(1)) if m else None
 
 
-def fetch_html(url: str, headers: dict, timeout: int = 15) -> Optional[BeautifulSoup]:
+def fetch(url: str, timeout: int = 20) -> Optional[BeautifulSoup]:
+    """Fetch using curl_cffi which impersonates Chrome TLS — bypasses Cloudflare."""
     try:
-        session = requests.Session()
-        # First hit the homepage to get cookies (helps with Cloudflare)
-        from urllib.parse import urlparse
-        base = f"{urlparse(url).scheme}://{urlparse(url).netloc}/"
-        session.get(base, headers=headers, timeout=10)
-        time.sleep(random.uniform(1, 2))
-        r = session.get(url, headers=headers, timeout=timeout)
+        r = cffi_requests.get(
+            url,
+            impersonate="chrome124",   # ← This is the key — real Chrome TLS fingerprint
+            timeout=timeout,
+        )
         r.raise_for_status()
         return BeautifulSoup(r.text, "html.parser")
     except Exception as e:
-        log.warning(f"  ✗ fetch failed [{url[:60]}]: {e}")
+        log.warning(f"  ✗ [{url[:55]}]: {e}")
         return None
 
 
-# ─── Site-specific extractors ─────────────────────────────────────────────────
+def extract_price_generic(soup: BeautifulSoup) -> Optional[int]:
+    """Try every known price pattern — works across Shopify and WooCommerce."""
 
-def _jetayu(url: str) -> Optional[int]:
-    """
-    Use Shopify's public product JSON API — 100% reliable, no HTML scraping needed.
-    URL pattern: /products/HANDLE.json
-    """
-    try:
-        # Extract handle from URL
-        handle = url.rstrip("/").split("/products/")[-1].split("?")[0]
-        api_url = f"https://jetayugadgets.com/products/{handle}.json"
-        r = requests.get(api_url, headers=HEADERS_DEFAULT, timeout=15)
-        r.raise_for_status()
-        data = r.json()
-        variants = data.get("product", {}).get("variants", [])
-        if variants:
-            price = variants[0].get("price")
-            return int(float(price)) if price else None
-    except Exception as e:
-        log.warning(f"  Jetayu API error: {e}")
-    return None
-
-
-def _xboom(url: str) -> Optional[int]:
-    """WooCommerce — bdi tag inside p.price works well."""
-    soup = fetch_html(url, HEADERS_DEFAULT)
-    if not soup:
-        return None
-    for sel in [
-        "p.price ins .woocommerce-Price-amount bdi",
-        "p.price .woocommerce-Price-amount bdi",
-        ".summary .price bdi",
-        ".price bdi",
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            p = clean_price(tag.get_text())
-            if p:
-                return p
-    return None
-
-
-def _woocommerce_generic(url: str) -> Optional[int]:
-    """Generic WooCommerce extractor with Cloudflare-friendly headers."""
-    soup = fetch_html(url, HEADERS_CF)
-    if not soup:
-        return None
-
-    # 1. JSON-LD
+    # 1. JSON-LD Product schema (most reliable when present)
     for tag in soup.find_all("script", type="application/ld+json"):
         try:
             data = json.loads(tag.string or "")
+            if not isinstance(data, dict):
+                continue
             offers = data.get("offers", {})
             if isinstance(offers, list):
                 offers = offers[0]
             price = offers.get("price") or offers.get("lowPrice")
             if price:
-                return int(float(price))
+                p = int(float(str(price).replace(",", "")))
+                if 1000 < p < 10000000:
+                    return p
         except Exception:
             pass
 
-    # 2. WooCommerce price selectors
-    for sel in [
-        "p.price ins .woocommerce-Price-amount bdi",
-        "p.price .woocommerce-Price-amount bdi",
-        ".entry-summary .price .amount",
-        ".woocommerce-Price-amount bdi",
-        ".price bdi",
-        'span[itemprop="price"]',
-        '[data-product-price]',
-        '[class*="price__current"]',
-        '[class*="price-item--sale"]',
-        '[class*="price-item--regular"]',
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            # Check content attribute first (Shopify pattern)
-            val = tag.get("content") or tag.get("data-product-price")
-            if val:
-                p = clean_price(str(val))
-                if p:
-                    return p
-            p = clean_price(tag.get_text())
-            if p:
-                return p
-
-    # 3. Look for price in any meta tag
+    # 2. Meta og:price or product:price
     for meta in soup.find_all("meta"):
         prop = meta.get("property", "") + meta.get("name", "")
         if "price" in prop.lower():
             val = meta.get("content", "")
             p = clean_price(val)
-            if p:
+            if p and 1000 < p < 10000000:
                 return p
+
+    # 3. WooCommerce selectors
+    for sel in [
+        "p.price ins .woocommerce-Price-amount bdi",
+        "p.price .woocommerce-Price-amount bdi",
+        ".woocommerce-Price-amount bdi",
+        ".entry-summary .price .amount",
+    ]:
+        tag = soup.select_one(sel)
+        if tag:
+            p = clean_price(tag.get_text())
+            if p and 1000 < p < 10000000:
+                return p
+
+    # 4. Shopify selectors
+    for sel in [
+        '[class*="price__current"]',
+        '[class*="price-item--sale"]',
+        '[class*="price-item--regular"]',
+        '.product__price',
+        '[data-product-price]',
+    ]:
+        tag = soup.select_one(sel)
+        if tag:
+            val = tag.get("content") or tag.get("data-product-price") or tag.get_text()
+            p = clean_price(str(val))
+            if p and 1000 < p < 10000000:
+                return p
+
+    # 5. Shopify inline JSON (window.ShopifyAnalytics or __st)
+    for script in soup.find_all("script"):
+        txt = script.string or ""
+        if '"price"' in txt and "Shopify" in txt:
+            m = re.search(r'"price"\s*:\s*(\d+)', txt)
+            if m:
+                paise = int(m.group(1))
+                # Shopify stores price in paise (×100)
+                rupees = paise // 100
+                if 1000 < rupees < 10000000:
+                    return rupees
+
+    # 6. Any span/div containing ₹ followed by digits
+    for tag in soup.find_all(["span", "div", "p"], string=re.compile(r"[\u20b9Rs]\s*[\d,]{4,}")):
+        p = clean_price(tag.get_text())
+        if p and 1000 < p < 10000000:
+            return p
 
     return None
 
 
+# ─── Site extractors ─────────────────────────────────────────────────────────
+
+def _jetayu(url: str) -> Optional[int]:
+    soup = fetch(url)
+    if not soup:
+        return None
+    # Shopify stores price as paise in inline JSON
+    for script in soup.find_all("script"):
+        txt = script.string or ""
+        if "price" in txt and ("ShopifyAnalytics" in txt or "meta" in txt.lower()):
+            # Pattern: "price":12990000 (in paise)
+            m = re.search(r'"price"\s*:\s*(\d{6,9})', txt)
+            if m:
+                paise = int(m.group(1))
+                rupees = paise // 100
+                if 1000 < rupees < 10000000:
+                    return rupees
+            # Pattern: "price": "64999.00"
+            m = re.search(r'"price"\s*:\s*"([\d.]+)"', txt)
+            if m:
+                p = int(float(m.group(1)))
+                if 1000 < p < 10000000:
+                    return p
+    return extract_price_generic(soup)
+
+
+def _xboom(url: str) -> Optional[int]:
+    soup = fetch(url)
+    return extract_price_generic(soup) if soup else None
+
+
 def _everse(url: str) -> Optional[int]:
-    return _woocommerce_generic(url)
+    soup = fetch(url)
+    return extract_price_generic(soup) if soup else None
 
 
 def _airytek(url: str) -> Optional[int]:
-    return _woocommerce_generic(url)
+    soup = fetch(url)
+    return extract_price_generic(soup) if soup else None
 
 
 def _hobitech(url: str) -> Optional[int]:
-    return _woocommerce_generic(url)
+    soup = fetch(url)
+    return extract_price_generic(soup) if soup else None
 
 
 def _designinfo(url: str) -> Optional[int]:
-    return _woocommerce_generic(url)
+    soup = fetch(url)
+    return extract_price_generic(soup) if soup else None
 
-
-# ─── Router ──────────────────────────────────────────────────────────────────
 
 EXTRACTORS = {
     "Jetayu":     _jetayu,
