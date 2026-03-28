@@ -1,6 +1,5 @@
 """
 Jetayu Gadgets — Competitor Price Monitor
-Scrapes prices from competitor product pages and outputs data.json
 """
 
 import json
@@ -8,8 +7,8 @@ import re
 import time
 import random
 import logging
+import pathlib
 from datetime import datetime, timezone
-from dataclasses import dataclass, field, asdict
 from typing import Optional
 
 import requests
@@ -18,7 +17,7 @@ from bs4 import BeautifulSoup
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-# ─── Product catalog from your Excel file ────────────────────────────────────
+# ─── Product catalog ──────────────────────────────────────────────────────────
 PRODUCTS = [
     {
         "id": 1, "name": "Neo Fly More Combo",
@@ -158,7 +157,6 @@ PRODUCTS = [
         "urls": {
             "Jetayu":      "https://jetayugadgets.com/products/dji-neo-2-fly-more-combo",
             "Xboom":       "https://www.xboom.in/shop/drones/selfie-drone/dji-neo/dji-neo-2-4k-smart-drone/",
-            "Everse":      "https://everse.in/category/dji-neo-series",
             "Airytek":     "https://airytek.com/dji-neo-2-fly-more-combo/",
             "Hobitech":    "https://hobitech.in/product/dji-neo-2-drone-camera/",
             "Designinfo":  "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
@@ -224,30 +222,50 @@ PRODUCTS = [
     },
 ]
 
-# ─── Per-site price extraction strategies ────────────────────────────────────
+# ─── Headers ─────────────────────────────────────────────────────────────────
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
-    ),
+# Standard headers for most sites
+HEADERS_DEFAULT = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "en-IN,en;q=0.9",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Cache-Control": "max-age=0",
 }
 
+# Extra headers for Cloudflare-protected sites
+HEADERS_CF = {
+    **HEADERS_DEFAULT,
+    "sec-ch-ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+}
+
+# ─── Helpers ─────────────────────────────────────────────────────────────────
+
 def clean_price(text: str) -> Optional[int]:
-    """Extract integer rupee amount from messy price strings."""
     if not text:
         return None
-    text = text.replace(",", "").replace("\u20b9", "").replace("Rs.", "").replace("INR", "")
+    text = str(text).replace(",", "").replace("\u20b9", "").replace("Rs.", "").replace("INR", "").strip()
     m = re.search(r"(\d{4,7})", text)
     return int(m.group(1)) if m else None
 
 
-def fetch(url: str, timeout: int = 15) -> Optional[BeautifulSoup]:
+def fetch_html(url: str, headers: dict, timeout: int = 15) -> Optional[BeautifulSoup]:
     try:
-        r = requests.get(url, headers=HEADERS, timeout=timeout)
+        session = requests.Session()
+        # First hit the homepage to get cookies (helps with Cloudflare)
+        from urllib.parse import urlparse
+        base = f"{urlparse(url).scheme}://{urlparse(url).netloc}/"
+        session.get(base, headers=headers, timeout=10)
+        time.sleep(random.uniform(1, 2))
+        r = session.get(url, headers=headers, timeout=timeout)
         r.raise_for_status()
         return BeautifulSoup(r.text, "html.parser")
     except Exception as e:
@@ -255,25 +273,55 @@ def fetch(url: str, timeout: int = 15) -> Optional[BeautifulSoup]:
         return None
 
 
-def extract_price(soup: BeautifulSoup, competitor: str) -> Optional[int]:
-    """Route to site-specific extractor."""
-    extractors = {
-        "Jetayu":     _jetayu,
-        "Xboom":      _xboom,
-        "Everse":     _everse,
-        "Airytek":    _airytek,
-        "Hobitech":   _hobitech,
-        "Designinfo": _designinfo,
-    }
-    fn = extractors.get(competitor)
-    return fn(soup) if fn else None
+# ─── Site-specific extractors ─────────────────────────────────────────────────
+
+def _jetayu(url: str) -> Optional[int]:
+    """
+    Use Shopify's public product JSON API — 100% reliable, no HTML scraping needed.
+    URL pattern: /products/HANDLE.json
+    """
+    try:
+        # Extract handle from URL
+        handle = url.rstrip("/").split("/products/")[-1].split("?")[0]
+        api_url = f"https://jetayugadgets.com/products/{handle}.json"
+        r = requests.get(api_url, headers=HEADERS_DEFAULT, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        variants = data.get("product", {}).get("variants", [])
+        if variants:
+            price = variants[0].get("price")
+            return int(float(price)) if price else None
+    except Exception as e:
+        log.warning(f"  Jetayu API error: {e}")
+    return None
 
 
-# ── Site extractors ──────────────────────────────────────────────────────────
+def _xboom(url: str) -> Optional[int]:
+    """WooCommerce — bdi tag inside p.price works well."""
+    soup = fetch_html(url, HEADERS_DEFAULT)
+    if not soup:
+        return None
+    for sel in [
+        "p.price ins .woocommerce-Price-amount bdi",
+        "p.price .woocommerce-Price-amount bdi",
+        ".summary .price bdi",
+        ".price bdi",
+    ]:
+        tag = soup.select_one(sel)
+        if tag:
+            p = clean_price(tag.get_text())
+            if p:
+                return p
+    return None
 
-def _shopify_generic(soup: BeautifulSoup) -> Optional[int]:
-    """Generic Shopify price extractor — works for Jetayu, Airytek, Hobitech."""
-    # 1. JSON-LD product schema
+
+def _woocommerce_generic(url: str) -> Optional[int]:
+    """Generic WooCommerce extractor with Cloudflare-friendly headers."""
+    soup = fetch_html(url, HEADERS_CF)
+    if not soup:
+        return None
+
+    # 1. JSON-LD
     for tag in soup.find_all("script", type="application/ld+json"):
         try:
             data = json.loads(tag.string or "")
@@ -286,109 +334,71 @@ def _shopify_generic(soup: BeautifulSoup) -> Optional[int]:
         except Exception:
             pass
 
-    # 2. Shopify product JSON endpoint pattern
+    # 2. WooCommerce price selectors
     for sel in [
-        'span[class*="price"]',
-        'div[class*="price"]',
+        "p.price ins .woocommerce-Price-amount bdi",
+        "p.price .woocommerce-Price-amount bdi",
+        ".entry-summary .price .amount",
+        ".woocommerce-Price-amount bdi",
+        ".price bdi",
+        'span[itemprop="price"]',
         '[data-product-price]',
-        '.price__current',
-        '.product__price',
+        '[class*="price__current"]',
+        '[class*="price-item--sale"]',
+        '[class*="price-item--regular"]',
     ]:
         tag = soup.select_one(sel)
         if tag:
-            p = clean_price(tag.get_text())
-            if p:
-                return p
-    return None
-
-
-def _jetayu(soup: BeautifulSoup) -> Optional[int]:
-    return _shopify_generic(soup)
-
-
-def _airytek(soup: BeautifulSoup) -> Optional[int]:
-    # WooCommerce + Shopify hybrid
-    for sel in ['.woocommerce-Price-amount', 'p.price .amount', '[class*="price"]']:
-        tag = soup.select_one(sel)
-        if tag:
-            p = clean_price(tag.get_text())
-            if p:
-                return p
-    return _shopify_generic(soup)
-
-
-def _hobitech(soup: BeautifulSoup) -> Optional[int]:
-    # WooCommerce
-    for sel in [
-        'p.price ins .woocommerce-Price-amount',
-        'p.price .woocommerce-Price-amount',
-        '.entry-summary .price .amount',
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            p = clean_price(tag.get_text())
-            if p:
-                return p
-    return _shopify_generic(soup)
-
-
-def _xboom(soup: BeautifulSoup) -> Optional[int]:
-    # WooCommerce
-    for sel in [
-        'p.price ins .woocommerce-Price-amount bdi',
-        'p.price .woocommerce-Price-amount bdi',
-        '.summary .price .amount',
-        '.price bdi',
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            p = clean_price(tag.get_text())
-            if p:
-                return p
-    return None
-
-
-def _everse(soup: BeautifulSoup) -> Optional[int]:
-    for sel in [
-        '.product-price',
-        '.price',
-        '[class*="price"]',
-        'span[itemprop="price"]',
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            attr_price = tag.get("content") or tag.get("data-price")
-            if attr_price:
-                p = clean_price(str(attr_price))
+            # Check content attribute first (Shopify pattern)
+            val = tag.get("content") or tag.get("data-product-price")
+            if val:
+                p = clean_price(str(val))
                 if p:
                     return p
             p = clean_price(tag.get_text())
             if p:
                 return p
-    return _shopify_generic(soup)
 
-
-def _designinfo(soup: BeautifulSoup) -> Optional[int]:
-    for sel in [
-        '.price-block .price',
-        '.product-price',
-        '[class*="price"]',
-        'span[itemprop="price"]',
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            attr = tag.get("content") or tag.get("data-price")
-            if attr:
-                p = clean_price(str(attr))
-                if p:
-                    return p
-            p = clean_price(tag.get_text())
+    # 3. Look for price in any meta tag
+    for meta in soup.find_all("meta"):
+        prop = meta.get("property", "") + meta.get("name", "")
+        if "price" in prop.lower():
+            val = meta.get("content", "")
+            p = clean_price(val)
             if p:
                 return p
-    return _shopify_generic(soup)
+
+    return None
 
 
-# ─── Main scrape loop ─────────────────────────────────────────────────────────
+def _everse(url: str) -> Optional[int]:
+    return _woocommerce_generic(url)
+
+
+def _airytek(url: str) -> Optional[int]:
+    return _woocommerce_generic(url)
+
+
+def _hobitech(url: str) -> Optional[int]:
+    return _woocommerce_generic(url)
+
+
+def _designinfo(url: str) -> Optional[int]:
+    return _woocommerce_generic(url)
+
+
+# ─── Router ──────────────────────────────────────────────────────────────────
+
+EXTRACTORS = {
+    "Jetayu":     _jetayu,
+    "Xboom":      _xboom,
+    "Everse":     _everse,
+    "Airytek":    _airytek,
+    "Hobitech":   _hobitech,
+    "Designinfo": _designinfo,
+}
+
+# ─── Main ────────────────────────────────────────────────────────────────────
 
 def scrape_all() -> dict:
     results = []
@@ -399,19 +409,16 @@ def scrape_all() -> dict:
         row = {"id": product["id"], "name": product["name"], "prices": {}}
 
         for competitor, url in product["urls"].items():
-            time.sleep(random.uniform(1.5, 3.5))   # polite delay
+            time.sleep(random.uniform(2, 4))
             log.info(f"   {competitor}: {url[:70]}")
-            soup = fetch(url)
-            if soup:
-                price = extract_price(soup, competitor)
-                row["prices"][competitor] = {
-                    "price": price,
-                    "url": url,
-                    "scraped_ok": price is not None,
-                }
-                log.info(f"   → ₹{price}" if price else "   → price not found")
-            else:
-                row["prices"][competitor] = {"price": None, "url": url, "scraped_ok": False}
+            fn = EXTRACTORS.get(competitor)
+            price = fn(url) if fn else None
+            row["prices"][competitor] = {
+                "price": price,
+                "url": url,
+                "scraped_ok": price is not None,
+            }
+            log.info(f"   → ₹{price:,}" if price else "   → not found")
 
         results.append(row)
 
@@ -419,7 +426,6 @@ def scrape_all() -> dict:
 
 
 if __name__ == "__main__":
-    import sys, pathlib
     data = scrape_all()
     out = pathlib.Path("docs/prices.json")
     out.parent.mkdir(exist_ok=True)
