@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-29T03:56:11.700893+00:00",
+  "scraped_at": "2026-03-29T20:01:06.478964+00:00",
   "products": [
     {
       "id": 1,
@@ -31,9 +31,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 37287,
           "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -119,9 +119,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 55083,
           "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -150,9 +150,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 63558,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -248,9 +248,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 93219,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -274,9 +274,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 100846,
           "url": "https://www.designinfo.in/p/dji-mini-5-pro-fly-more-combo-series-drone-36-min-battery/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -295,7 +295,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 136999,
+          "price": 129540,
           "url": "https://everse.in/product/dji-mini-5-pro",
           "scraped_ok": true
         },
@@ -440,9 +440,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 46609,
           "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
