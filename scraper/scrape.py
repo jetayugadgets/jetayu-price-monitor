@@ -18,6 +18,15 @@ from bs4 import BeautifulSoup
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
+# ─── Persistent session (Chrome TLS impersonation + realistic headers) ─────────
+session = cffi_requests.Session(impersonate="chrome124")
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
+    "Accept-Language": "en-IN,en;q=0.9",
+    "Referer": "https://www.google.com/",
+    "Accept": "text/html,application/xhtml+xml",
+})
+
 # ─── Product catalog ──────────────────────────────────────────────────────────
 PRODUCTS = [
     {
@@ -240,27 +249,18 @@ def clean_price(text: str) -> Optional[int]:
     return int(m.group(1)) if m else None
 
 
-def fetch(url: str, timeout: int = 20) -> Optional[BeautifulSoup]:
+def fetch(url: str, timeout: int = 10) -> Optional[BeautifulSoup]:
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
-            "Accept-Language": "en-IN,en;q=0.9",
-            "Referer": "https://www.google.com/",
-            "Accept": "text/html,application/xhtml+xml",
-        }
-
-        r = cffi_requests.get(
-            url,
-            impersonate="chrome124",
-            headers=headers,
-            timeout=timeout,
-        )
+        r = session.get(url, timeout=timeout)
 
         if r.status_code == 403:
             log.warning(f"  🚫 BLOCKED (403) → {url}")
             return None
 
-        r.raise_for_status()
+        if r.status_code != 200:
+            log.warning(f"  ✗ [{url[:55]}]: HTTP {r.status_code}")
+            return None
+
         return BeautifulSoup(r.text, "html.parser")
 
     except Exception as e:
@@ -417,7 +417,7 @@ def scrape_all() -> dict:
         row = {"id": product["id"], "name": product["name"], "prices": {}}
 
         for competitor, url in product["urls"].items():
-            time.sleep(random.uniform(2, 4))
+            time.sleep(random.uniform(1, 2))  # anti-bot delay between requests
             log.info(f"   {competitor}: {url[:70]}")
             fn = EXTRACTORS.get(competitor)
             price = fn(url) if fn else None
