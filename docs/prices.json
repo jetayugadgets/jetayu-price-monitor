@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-03-30T04:09:30.013719+00:00",
+  "scraped_at": "2026-03-31T03:51:20.326684+00:00",
   "products": [
     {
       "id": 1,
@@ -58,7 +58,7 @@
       "name": "Mini 2 SE Standard",
       "prices": {
         "Jetayu": {
-          "price": 45999,
+          "price": 44700,
           "url": "https://jetayugadgets.com/products/dji-mini-2-se-standard",
           "scraped_ok": true
         },
@@ -83,9 +83,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 1999,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -295,7 +295,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 129540,
+          "price": 134099,
           "url": "https://everse.in/product/dji-mini-5-pro",
           "scraped_ok": true
         },
@@ -440,9 +440,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 46609,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
