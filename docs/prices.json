@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-02T03:45:01.836707+00:00",
+  "scraped_at": "2026-04-03T03:46:14.883476+00:00",
   "products": [
     {
       "id": 1,
@@ -78,9 +78,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 55990,
           "url": "https://hobitech.in/product/dji-mini-2-se-standard-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 1999,
@@ -476,9 +476,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 49151,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -512,9 +512,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 49151,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
