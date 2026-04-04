@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-03T03:46:14.883476+00:00",
+  "scraped_at": "2026-04-04T03:35:01.697489+00:00",
   "products": [
     {
       "id": 1,
@@ -461,7 +461,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 86000,
+          "price": 84999,
           "url": "https://everse.in/product/dji-neo-2-motion-fly-more-combo",
           "scraped_ok": true
         },
@@ -476,9 +476,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 49151,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -512,9 +512,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 49151,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -590,7 +590,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 569999,
+          "price": 980000,
           "url": "https://everse.in/product/dji-matrice-350-rtk-m350-basic-combo-drone",
           "scraped_ok": true
         },
