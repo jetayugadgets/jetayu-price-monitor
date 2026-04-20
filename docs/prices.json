@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-19T04:15:52.835996+00:00",
+  "scraped_at": "2026-04-20T04:21:17.471652+00:00",
   "products": [
     {
       "id": 1,
@@ -83,9 +83,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 1999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -150,9 +150,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 63558,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -595,7 +595,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 550000,
+          "price": 655000,
           "url": "https://airytek.com/dji-matrice-350-rtk-worry-free-basic-combo/",
           "scraped_ok": true
         },
