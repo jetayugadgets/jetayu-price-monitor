@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-20T04:21:17.471652+00:00",
+  "scraped_at": "2026-04-21T04:13:20.252129+00:00",
   "products": [
     {
       "id": 1,
@@ -11,7 +11,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 44190,
+          "price": 46400,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-fly-more-combo/",
           "scraped_ok": true
         },
@@ -83,9 +83,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 1999,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -99,7 +99,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 59999,
+          "price": 62999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-4k-fly-more-combo/",
           "scraped_ok": true
         },
@@ -135,7 +135,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 85238,
+          "price": 89500,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-3-fly-more-combo-remote-controller-with-screen/",
           "scraped_ok": true
         },
@@ -150,9 +150,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 63558,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -166,7 +166,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 79905,
+          "price": 83900,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-flip/dji-flip-flymore-combo-dji-rc-2/",
           "scraped_ok": true
         },
@@ -202,7 +202,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 99999,
+          "price": 104999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-fly-more-combo-37-min/",
           "scraped_ok": true
         },
@@ -228,7 +228,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 104761,
+          "price": 109999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-drone-camera-fly-more-combo-plus/",
           "scraped_ok": true
         },
@@ -264,7 +264,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 127619,
+          "price": 134000,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro-fly-more-combo-dji-rc-2/",
           "scraped_ok": true
         },
@@ -290,7 +290,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 132381,
+          "price": 139000,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro/",
           "scraped_ok": true
         },
@@ -321,7 +321,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 168570,
+          "price": 176999,
           "url": "https://www.xboom.in/shop/drone-shop-by-price/rs-1-3l-rs-1-5l/dji-air-3s-fly-more-combo-dji-rc-2/",
           "scraped_ok": true
         },
@@ -368,7 +368,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 285713,
+          "price": 299999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-flymore-combo/",
           "scraped_ok": true
         },
@@ -425,7 +425,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 59990,
+          "price": 62990,
           "url": "https://www.xboom.in/shop/drones/selfie-drone/dji-neo/dji-neo-2-4k-smart-drone/",
           "scraped_ok": true
         },
@@ -456,7 +456,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 82856,
+          "price": 86999,
           "url": "https://www.xboom.in/shop/drones/selfie-drone/dji-neo/dji-neo-2-fly-motion-flymore-combo/",
           "scraped_ok": true
         },
@@ -492,7 +492,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 61810,
+          "price": 64900,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-motion-fly-more-combo/",
           "scraped_ok": true
         },
@@ -528,7 +528,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 618952,
+          "price": 640900,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-4t/",
           "scraped_ok": true
         },
@@ -559,7 +559,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 490476,
+          "price": 637999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-enterprise-series/dji-matrice-4e/",
           "scraped_ok": true
         },
@@ -585,7 +585,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 903810,
+          "price": 949000,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-350-rtk-basic-combo-drone/",
           "scraped_ok": true
         },
@@ -616,7 +616,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 941905,
+          "price": 989000,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-400/",
           "scraped_ok": true
         },
