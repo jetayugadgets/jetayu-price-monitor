@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-26T04:24:35.279238+00:00",
+  "scraped_at": "2026-04-27T04:32:25.991390+00:00",
   "products": [
     {
       "id": 1,
@@ -11,9 +11,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 46400,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": null,
@@ -31,7 +31,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 37287,
+          "price": 39399,
           "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/",
           "scraped_ok": true
         }
@@ -63,9 +63,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 45999,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": null,
@@ -83,7 +83,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 1999,
+          "price": 43999,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
           "scraped_ok": true
         }
@@ -119,7 +119,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 55083,
+          "price": 55999,
           "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
           "scraped_ok": true
         }
@@ -150,9 +150,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 74999,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -181,7 +181,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 87990,
+          "price": 84990,
           "url": "https://hobitech.in/product/dji-flip-fly-more-combo-dji-rc-2/",
           "scraped_ok": true
         }
@@ -212,9 +212,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 107990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -248,7 +248,7 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 93219,
+          "price": 101999,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
           "scraped_ok": true
         }
@@ -274,7 +274,7 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 100846,
+          "price": 114999,
           "url": "https://www.designinfo.in/p/dji-mini-5-pro-fly-more-combo-series-drone-36-min-battery/",
           "scraped_ok": true
         }
@@ -305,9 +305,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 130990,
           "url": "https://hobitech.in/product/dji-mini-5-pro-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -378,9 +378,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": null,
+          "price": 84990,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -409,7 +409,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 379990,
+          "price": 84990,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
           "scraped_ok": true
         }
@@ -440,9 +440,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 48999,
           "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -476,9 +476,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 57999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -512,9 +512,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 57999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -538,9 +538,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 629500,
+          "price": null,
           "url": "https://airytek.com/dji-matrice-4t-worry-free-plus-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": null,
@@ -595,9 +595,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 655000,
+          "price": null,
           "url": "https://airytek.com/dji-matrice-350-rtk-worry-free-basic-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": null,
