@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-04-29T04:31:26.690770+00:00",
+  "scraped_at": "2026-04-30T04:33:53.935720+00:00",
   "products": [
     {
       "id": 1,
@@ -78,9 +78,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 55990,
           "url": "https://hobitech.in/product/dji-mini-2-se-standard-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 43999,
@@ -114,9 +114,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 67990,
           "url": "https://hobitech.in/product/dji-mini-4k-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 55999,
@@ -181,9 +181,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 87990,
           "url": "https://hobitech.in/product/dji-flip-fly-more-combo-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -212,9 +212,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 107990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -243,9 +243,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 111990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-plus-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 101999,
@@ -305,9 +305,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 130990,
           "url": "https://hobitech.in/product/dji-mini-5-pro-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -336,9 +336,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 163990,
           "url": "https://hobitech.in/product/dji-air-3s-fly-more-combo-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -378,9 +378,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": null,
+          "price": 279990,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -409,9 +409,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 379990,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -435,9 +435,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 58990,
           "url": "https://hobitech.in/product/dji-neo-2-drone-camera/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 48999,
@@ -471,9 +471,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 83990,
           "url": "https://hobitech.in/product/dji-neo-2-motion-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 57999,
@@ -507,9 +507,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 74990,
           "url": "https://hobitech.in/product/dji-neo-motion-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 57999,
@@ -543,9 +543,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": null,
+          "price": 664990,
           "url": "https://hobitech.in/product/dji-matrice-4t-worry-free-plus-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -600,9 +600,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": null,
+          "price": 970000,
           "url": "https://hobitech.in/product/dji-matrice-350-rtk-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -626,9 +626,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": null,
+          "price": 900000,
           "url": "https://hobitech.in/product/dji-matrice-400/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     }
