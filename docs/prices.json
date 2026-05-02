@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-01T04:51:46.793696+00:00",
+  "scraped_at": "2026-05-02T04:19:25.179110+00:00",
   "products": [
     {
       "id": 1,
@@ -119,9 +119,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 55999,
           "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -248,9 +248,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 101999,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
