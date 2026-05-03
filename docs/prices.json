@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-02T04:19:25.179110+00:00",
+  "scraped_at": "2026-05-03T04:41:55.913954+00:00",
   "products": [
     {
       "id": 1,
@@ -248,9 +248,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 101999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -274,9 +274,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 114999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-5-pro-fly-more-combo-series-drone-36-min-battery/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
