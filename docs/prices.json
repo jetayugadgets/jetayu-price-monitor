@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-05T04:17:44.490680+00:00",
+  "scraped_at": "2026-05-06T04:34:53.283616+00:00",
   "products": [
     {
       "id": 1,
@@ -150,7 +150,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 74999,
+          "price": 81999,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
           "scraped_ok": true
         }
@@ -440,7 +440,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 48999,
+          "price": 49999,
           "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
           "scraped_ok": true
         }
