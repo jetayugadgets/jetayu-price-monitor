@@ -1,14 +1,14 @@
 {
-  "scraped_at": "2026-05-11T04:59:48.030979+00:00",
+  "scraped_at": "2026-05-12T04:38:11.374854+00:00",
   "products": [
     {
       "id": 1,
       "name": "Neo Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 44499,
           "url": "https://jetayugadgets.com/products/dji-neo-fly-more-drone-combo-with-3-batteries-remote-charging-hub",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 46400,
@@ -26,9 +26,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 47990,
           "url": "https://hobitech.in/product/dji-neo-fly-more-drone-combo-with-3-batteries/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 39399,
@@ -42,9 +42,9 @@
       "name": "Neo Standard",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 30450,
           "url": "https://jetayugadgets.com/products/dji-neo-standard-drone-only",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": null,
@@ -78,14 +78,14 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 55990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-2-se-standard-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
-          "price": 43999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -94,9 +94,9 @@
       "name": "Mini 4K Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 48499,
           "url": "https://jetayugadgets.com/products/dji-mini-4k-fly-more-combo",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 62999,
@@ -114,9 +114,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 67990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-4k-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 55999,
@@ -130,9 +130,9 @@
       "name": "Mini 3 Fly More Combo with RC",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 74999,
           "url": "https://jetayugadgets.com/products/dji-mini-3-fly-more-combo-drone-camera-with-rc",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 89500,
@@ -161,9 +161,9 @@
       "name": "Flip Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 69999,
           "url": "https://jetayugadgets.com/products/dji-flip-fly-more-combo-dji-rc-2",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 83900,
@@ -192,9 +192,9 @@
       "name": "Mini 4 Pro Fly More Combo – 34 min",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 84999,
           "url": "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-dji-rc-2-34-mins",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": null,
@@ -223,9 +223,9 @@
       "name": "Mini 4 Pro Fly More Combo Plus – 45 min",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 86999,
           "url": "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-plus-45-mins",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 109999,
@@ -243,9 +243,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 111990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-plus-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 101999,
@@ -259,9 +259,9 @@
       "name": "Mini 5 Pro Fly More Combo – 36 min",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 128999,
           "url": "https://jetayugadgets.com/products/dji-mini-5-pro-fly-more-combo-36-mins",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 134000,
@@ -285,9 +285,9 @@
       "name": "Mini 5 Pro Fly More Combo Plus – 52 min",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 114999,
           "url": "https://jetayugadgets.com/products/dji-mini-5-pro-flymore-combo-plus-52-mins",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 139000,
@@ -300,14 +300,14 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 123999,
+          "price": 124999,
           "url": "https://airytek.com/dji-mini-5-pro-combo-plus/",
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 130990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-5-pro-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -316,9 +316,9 @@
       "name": "Air 3S Fly More Combo RC2",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 159999,
           "url": "https://jetayugadgets.com/products/dji-air-3s-fly-more-combo-dji-rc-2",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 176999,
@@ -336,9 +336,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 163990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-air-3s-fly-more-combo-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -347,9 +347,9 @@
       "name": "Mavic 4 Pro Standard",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 229000,
           "url": "https://jetayugadgets.com/products/dji-mavic-4-pro-standard",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": null,
@@ -389,9 +389,9 @@
       "name": "Mavic 4 Pro 512GB Creator Combo",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 403999,
           "url": "https://jetayugadgets.com/products/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 390000,
@@ -420,9 +420,9 @@
       "name": "Neo 2 Combo",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 62499,
           "url": "https://jetayugadgets.com/products/dji-neo-2-fly-more-combo",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 62990,
@@ -451,9 +451,9 @@
       "name": "Neo 2 Motion Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 85999,
           "url": "https://jetayugadgets.com/products/dji-neo-2-motion-fly-more-combo",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 86999,
@@ -476,9 +476,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 57999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -487,9 +487,9 @@
       "name": "Neo Motion Combo",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 71499,
           "url": "https://jetayugadgets.com/products/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 64900,
@@ -512,9 +512,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 57999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -523,9 +523,9 @@
       "name": "DJI M4T (Mavic 4 Thermal)",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 666999,
           "url": "https://jetayugadgets.com/products/dji-matrice-4-thermal-m4t",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 649900,
@@ -554,9 +554,9 @@
       "name": "DJI M4E (Matrice 4 Enterprise)",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 506999,
           "url": "https://jetayugadgets.com/products/dji-matrice-4-enterprise-m4e",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 576449,
@@ -580,9 +580,9 @@
       "name": "DJI Matrice 350 (M350)",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 813999,
           "url": "https://jetayugadgets.com/products/dji-matrice-350-rtk-m350-rtk",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 949000,
@@ -611,9 +611,9 @@
       "name": "DJI Matrice 400 (M400)",
       "prices": {
         "Jetayu": {
-          "price": null,
+          "price": 1178000,
           "url": "https://jetayugadgets.com/products/dji-matrice-400-m400",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Xboom": {
           "price": 989000,
