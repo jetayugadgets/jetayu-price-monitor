@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-17T04:54:24.901474+00:00",
+  "scraped_at": "2026-05-18T05:08:16.886569+00:00",
   "products": [
     {
       "id": 1,
@@ -83,9 +83,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 43999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -119,9 +119,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 55999,
           "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -150,9 +150,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 81999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -440,9 +440,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 48999,
           "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
