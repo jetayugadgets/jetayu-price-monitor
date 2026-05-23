@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-22T05:04:45.380799+00:00",
+  "scraped_at": "2026-05-23T04:43:47.400065+00:00",
   "products": [
     {
       "id": 1,
@@ -440,9 +440,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 48999,
           "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
