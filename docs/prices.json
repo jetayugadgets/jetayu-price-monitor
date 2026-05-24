@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-23T04:43:47.400065+00:00",
+  "scraped_at": "2026-05-24T05:03:23.570268+00:00",
   "products": [
     {
       "id": 1,
@@ -11,9 +11,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 46400,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 45000,
@@ -31,9 +31,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 39399,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -63,9 +63,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 45999,
+          "price": null,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 44999,
@@ -135,9 +135,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 89500,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-3-fly-more-combo-remote-controller-with-screen/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 84999,
@@ -248,9 +248,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 101999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -368,9 +368,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 299999,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-flymore-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 299999,
@@ -394,9 +394,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 390000,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 389999,
@@ -585,9 +585,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 949000,
+          "price": null,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-350-rtk-basic-combo-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 980000,
