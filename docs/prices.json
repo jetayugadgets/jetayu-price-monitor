@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-25T05:23:08.667426+00:00",
+  "scraped_at": "2026-05-26T05:05:39.612232+00:00",
   "products": [
     {
       "id": 1,
@@ -150,9 +150,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 81999,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -363,7 +363,7 @@
       "name": "Mavic 4 Pro Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": 301999,
+          "price": 297999,
           "url": "https://jetayugadgets.com/products/dji-mavic-4-pro-fly-more-combo-dji-rc-2",
           "scraped_ok": true
         },
@@ -420,7 +420,7 @@
       "name": "Neo 2 Combo",
       "prices": {
         "Jetayu": {
-          "price": 58499,
+          "price": 59499,
           "url": "https://jetayugadgets.com/products/dji-neo-2-fly-more-combo",
           "scraped_ok": true
         },
