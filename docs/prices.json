@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-30T04:54:06.765547+00:00",
+  "scraped_at": "2026-05-31T05:21:08.984671+00:00",
   "products": [
     {
       "id": 1,
@@ -83,9 +83,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 43999,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -99,9 +99,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 62999,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-4k-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 64899,
