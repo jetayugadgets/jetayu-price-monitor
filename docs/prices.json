@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-11T05:52:47.916628+00:00",
+  "scraped_at": "2026-06-12T05:51:17.977813+00:00",
   "products": [
     {
       "id": 1,
@@ -212,9 +212,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 107990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -321,9 +321,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 176999,
+          "price": null,
           "url": "https://www.xboom.in/shop/drone-shop-by-price/rs-1-3l-rs-1-5l/dji-air-3s-fly-more-combo-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 164999,
@@ -600,9 +600,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": null,
+          "price": 970000,
           "url": "https://hobitech.in/product/dji-matrice-350-rtk-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -616,9 +616,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 989000,
+          "price": null,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-400/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 1180000,
