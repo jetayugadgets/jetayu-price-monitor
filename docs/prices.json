@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-19T06:23:02.358100+00:00",
+  "scraped_at": "2026-06-20T05:18:30.124335+00:00",
   "products": [
     {
       "id": 1,
@@ -73,9 +73,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 44999,
+          "price": null,
           "url": "https://airytek.com/dji-mini-2-se-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": 55990,
@@ -83,9 +83,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 43999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -476,9 +476,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 57999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -512,9 +512,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 57999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
