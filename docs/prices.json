@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-20T05:18:30.124335+00:00",
+  "scraped_at": "2026-06-21T06:06:21.218769+00:00",
   "products": [
     {
       "id": 1,
@@ -31,9 +31,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 34999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -73,9 +73,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": null,
+          "price": 44999,
           "url": "https://airytek.com/dji-mini-2-se-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Hobitech": {
           "price": 55990,
@@ -119,9 +119,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 49999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -248,9 +248,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 99999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -274,9 +274,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 113999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-5-pro-fly-more-combo-series-drone-36-min-battery/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -440,9 +440,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 48999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
