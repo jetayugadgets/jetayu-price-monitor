@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-26T05:11:06.409464+00:00",
+  "scraped_at": "2026-06-27T04:55:45.301976+00:00",
   "products": [
     {
       "id": 1,
@@ -192,7 +192,7 @@
       "name": "Mini 4 Pro Fly More Combo – 34 min",
       "prices": {
         "Jetayu": {
-          "price": 104499,
+          "price": 84999,
           "url": "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-dji-rc-2-34-mins",
           "scraped_ok": true
         },
@@ -212,7 +212,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 107990,
+          "price": 94990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
           "scraped_ok": true
         }
@@ -243,7 +243,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 111990,
+          "price": 104990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-plus-dji-rc-2/",
           "scraped_ok": true
         },
@@ -305,7 +305,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 130990,
+          "price": 125990,
           "url": "https://hobitech.in/product/dji-mini-5-pro-fly-more-combo/",
           "scraped_ok": true
         }
@@ -378,7 +378,7 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": 279990,
+          "price": 450000,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
           "scraped_ok": true
         }
