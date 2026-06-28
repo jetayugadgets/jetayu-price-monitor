@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-27T04:55:45.301976+00:00",
+  "scraped_at": "2026-06-28T05:19:21.488388+00:00",
   "products": [
     {
       "id": 1,
@@ -378,7 +378,7 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": 450000,
+          "price": 1950000,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
           "scraped_ok": true
         }
