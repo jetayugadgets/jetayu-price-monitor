@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-01T05:24:23.617907+00:00",
+  "scraped_at": "2026-07-02T05:00:27.389577+00:00",
   "products": [
     {
       "id": 1,
@@ -316,7 +316,7 @@
       "name": "Air 3S Fly More Combo RC2",
       "prices": {
         "Jetayu": {
-          "price": 142999,
+          "price": 166999,
           "url": "https://jetayugadgets.com/products/dji-air-3s-fly-more-combo-dji-rc-2",
           "scraped_ok": true
         },
@@ -378,9 +378,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 489990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
