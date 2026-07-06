@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-05T04:59:29.082483+00:00",
+  "scraped_at": "2026-07-06T05:14:28.873449+00:00",
   "products": [
     {
       "id": 1,
@@ -378,7 +378,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 1300000,
+          "price": 665000,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
           "scraped_ok": true
         }
@@ -543,9 +543,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": 664990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-matrice-4t-worry-free-plus-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
