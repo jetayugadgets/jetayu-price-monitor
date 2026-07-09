@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-08T04:16:31.366643+00:00",
+  "scraped_at": "2026-07-09T05:01:47.779406+00:00",
   "products": [
     {
       "id": 1,
@@ -31,9 +31,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 34999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -78,14 +78,14 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 55990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-2-se-standard-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
-          "price": 43999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -119,9 +119,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 49999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -145,14 +145,14 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 87990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-3-fly-more-combo-dji-rc-51/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
-          "price": 74999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -166,9 +166,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 83900,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-flip/dji-flip-flymore-combo-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 83999,
@@ -243,14 +243,14 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 104990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-plus-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
-          "price": 99999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -274,9 +274,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 113999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-5-pro-fly-more-combo-series-drone-36-min-battery/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -440,9 +440,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 48999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -507,9 +507,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 74990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-neo-motion-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": null,
@@ -600,9 +600,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": 970000,
+          "price": null,
           "url": "https://hobitech.in/product/dji-matrice-350-rtk-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
