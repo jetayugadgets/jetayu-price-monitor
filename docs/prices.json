@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-11T04:14:38.024566+00:00",
+  "scraped_at": "2026-07-12T04:26:41.447323+00:00",
   "products": [
     {
       "id": 1,
@@ -321,9 +321,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 176999,
+          "price": null,
           "url": "https://www.xboom.in/shop/drone-shop-by-price/rs-1-3l-rs-1-5l/dji-air-3s-fly-more-combo-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 164999,
