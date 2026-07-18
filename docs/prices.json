@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-17T04:09:49.427121+00:00",
+  "scraped_at": "2026-07-18T03:56:25.603458+00:00",
   "products": [
     {
       "id": 1,
@@ -192,7 +192,7 @@
       "name": "Mini 4 Pro Fly More Combo – 34 min",
       "prices": {
         "Jetayu": {
-          "price": 84999,
+          "price": 103999,
           "url": "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-dji-rc-2-34-mins",
           "scraped_ok": true
         },
@@ -399,7 +399,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 389999,
+          "price": 394999,
           "url": "https://everse.in/product/dji-mavic-4-pro-drone-creator-combo-with-rc-pro-2-remote-controller",
           "scraped_ok": true
         },
