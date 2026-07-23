@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-07-22T04:19:20.237743+00:00",
+  "scraped_at": "2026-07-23T04:16:56.188200+00:00",
   "products": [
     {
       "id": 1,
       "name": "Neo Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": 44499,
+          "price": 35999,
           "url": "https://jetayugadgets.com/products/dji-neo-fly-more-drone-combo-with-3-batteries-remote-charging-hub",
           "scraped_ok": true
         },
@@ -94,7 +94,7 @@
       "name": "Mini 4K Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": 62499,
+          "price": 54499,
           "url": "https://jetayugadgets.com/products/dji-mini-4k-fly-more-combo",
           "scraped_ok": true
         },
@@ -223,7 +223,7 @@
       "name": "Mini 4 Pro Fly More Combo Plus – 45 min",
       "prices": {
         "Jetayu": {
-          "price": 106999,
+          "price": 87999,
           "url": "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-plus-45-mins",
           "scraped_ok": true
         },
