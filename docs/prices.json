@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-25T04:13:47.660318+00:00",
+  "scraped_at": "2026-07-26T04:27:59.240417+00:00",
   "products": [
     {
       "id": 1,
@@ -202,9 +202,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 104999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-fly-more-combo-37-min/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Airytek": {
           "price": 104999,
@@ -228,9 +228,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 109999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-drone-camera-fly-more-combo-plus/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 107999,
@@ -264,9 +264,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 134000,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro-fly-more-combo-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 126999,
