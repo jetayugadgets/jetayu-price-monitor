@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-26T04:27:59.240417+00:00",
+  "scraped_at": "2026-07-27T04:38:32.293817+00:00",
   "products": [
     {
       "id": 1,
@@ -119,7 +119,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 49999,
+          "price": 47999,
           "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
           "scraped_ok": true
         }
