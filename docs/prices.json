@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-29T04:13:53.923931+00:00",
+  "scraped_at": "2026-07-30T04:08:10.279339+00:00",
   "products": [
     {
       "id": 1,
@@ -274,7 +274,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 113999,
+          "price": 115999,
           "url": "https://www.designinfo.in/p/dji-mini-5-pro-fly-more-combo-series-drone-36-min-battery/",
           "scraped_ok": true
         }
@@ -476,9 +476,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 64999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -512,9 +512,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 64999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
