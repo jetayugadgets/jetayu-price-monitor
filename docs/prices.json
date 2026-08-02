@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-01T04:22:29.057985+00:00",
+  "scraped_at": "2026-08-02T04:25:06.113570+00:00",
   "products": [
     {
       "id": 1,
@@ -58,7 +58,7 @@
       "name": "Mini 2 SE Standard",
       "prices": {
         "Jetayu": {
-          "price": 45999,
+          "price": 35999,
           "url": "https://jetayugadgets.com/products/dji-mini-2-se-standard",
           "scraped_ok": true
         },
@@ -94,14 +94,14 @@
       "name": "Mini 4K Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": 54499,
+          "price": 48499,
           "url": "https://jetayugadgets.com/products/dji-mini-4k-fly-more-combo",
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 62999,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-4k-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 64899,
@@ -130,7 +130,7 @@
       "name": "Mini 3 Fly More Combo with RC",
       "prices": {
         "Jetayu": {
-          "price": 72999,
+          "price": 67999,
           "url": "https://jetayugadgets.com/products/dji-mini-3-fly-more-combo-drone-camera-with-rc",
           "scraped_ok": true
         },
@@ -192,7 +192,7 @@
       "name": "Mini 4 Pro Fly More Combo – 34 min",
       "prices": {
         "Jetayu": {
-          "price": 103999,
+          "price": 84999,
           "url": "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-dji-rc-2-34-mins",
           "scraped_ok": true
         },
@@ -259,7 +259,7 @@
       "name": "Mini 5 Pro Fly More Combo – 36 min",
       "prices": {
         "Jetayu": {
-          "price": 128999,
+          "price": 108999,
           "url": "https://jetayugadgets.com/products/dji-mini-5-pro-fly-more-combo-36-mins",
           "scraped_ok": true
         },
@@ -285,7 +285,7 @@
       "name": "Mini 5 Pro Fly More Combo Plus – 52 min",
       "prices": {
         "Jetayu": {
-          "price": 138499,
+          "price": 114999,
           "url": "https://jetayugadgets.com/products/dji-mini-5-pro-flymore-combo-plus-52-mins",
           "scraped_ok": true
         },
@@ -316,7 +316,7 @@
       "name": "Air 3S Fly More Combo RC2",
       "prices": {
         "Jetayu": {
-          "price": 163499,
+          "price": 142999,
           "url": "https://jetayugadgets.com/products/dji-air-3s-fly-more-combo-dji-rc-2",
           "scraped_ok": true
         },
@@ -378,9 +378,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 279990,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -420,7 +420,7 @@
       "name": "Neo 2 Combo",
       "prices": {
         "Jetayu": {
-          "price": 62499,
+          "price": 49999,
           "url": "https://jetayugadgets.com/products/dji-neo-2-fly-more-combo",
           "scraped_ok": true
         },
@@ -451,7 +451,7 @@
       "name": "Neo 2 Motion Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": 85999,
+          "price": 68999,
           "url": "https://jetayugadgets.com/products/dji-neo-2-motion-fly-more-combo",
           "scraped_ok": true
         },
@@ -487,7 +487,7 @@
       "name": "Neo Motion Combo",
       "prices": {
         "Jetayu": {
-          "price": 71499,
+          "price": 58999,
           "url": "https://jetayugadgets.com/products/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery",
           "scraped_ok": true
         },
