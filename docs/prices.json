@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-02T04:25:06.113570+00:00",
+  "scraped_at": "2026-08-03T04:32:28.531607+00:00",
   "products": [
     {
       "id": 1,
@@ -99,9 +99,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 62999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-4k-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 64899,
