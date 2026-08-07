@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-06T04:15:15.395866+00:00",
+  "scraped_at": "2026-08-07T03:51:24.781366+00:00",
   "products": [
     {
       "id": 1,
@@ -26,9 +26,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 47990,
           "url": "https://hobitech.in/product/dji-neo-fly-more-drone-combo-with-3-batteries/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 34999,
@@ -114,9 +114,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 67990,
           "url": "https://hobitech.in/product/dji-mini-4k-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 47999,
@@ -212,9 +212,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 94990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -243,9 +243,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 104990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-plus-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 99999,
@@ -305,9 +305,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 125990,
           "url": "https://hobitech.in/product/dji-mini-5-pro-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -336,9 +336,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 161990,
           "url": "https://hobitech.in/product/dji-air-3s-fly-more-combo-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -378,9 +378,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 279990,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -435,9 +435,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 58990,
           "url": "https://hobitech.in/product/dji-neo-2-drone-camera/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 49999,
@@ -476,9 +476,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 64999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -512,9 +512,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 64999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -543,9 +543,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": null,
+          "price": 664990,
           "url": "https://hobitech.in/product/dji-matrice-4t-worry-free-plus-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -626,9 +626,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 900000,
           "url": "https://hobitech.in/product/dji-matrice-400/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     }
