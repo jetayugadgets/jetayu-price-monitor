@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-08T02:55:15.816369+00:00",
+  "scraped_at": "2026-08-09T03:02:38.302187+00:00",
   "products": [
     {
       "id": 1,
@@ -83,9 +83,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 43999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
