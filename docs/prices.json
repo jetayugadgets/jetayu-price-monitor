@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-09T03:02:38.302187+00:00",
+  "scraped_at": "2026-08-10T03:12:25.471896+00:00",
   "products": [
     {
       "id": 1,
@@ -47,7 +47,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 34999,
+          "price": 32000,
           "url": "https://everse.in/product/dji-neo-no-rc",
           "scraped_ok": true
         }
@@ -83,9 +83,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 43999,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -321,9 +321,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 176999,
+          "price": null,
           "url": "https://www.xboom.in/shop/drone-shop-by-price/rs-1-3l-rs-1-5l/dji-air-3s-fly-more-combo-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 164999,
