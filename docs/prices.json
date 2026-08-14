@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-13T03:27:22.373197+00:00",
+  "scraped_at": "2026-08-14T03:24:57.180175+00:00",
   "products": [
     {
       "id": 1,
@@ -394,7 +394,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 390000,
+          "price": 409999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
           "scraped_ok": true
         },
@@ -528,9 +528,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 649900,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-4t/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 609999,
