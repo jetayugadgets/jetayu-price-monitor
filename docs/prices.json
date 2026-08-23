@@ -1,12 +1,12 @@
 {
-  "scraped_at": "2026-08-22T02:16:26.811091+00:00",
+  "scraped_at": "2026-08-23T02:23:54.959315+00:00",
   "products": [
     {
       "id": 1,
       "name": "Neo Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": 39999,
+          "price": 44499,
           "url": "https://jetayugadgets.com/products/dji-neo-fly-more-drone-combo-with-3-batteries-remote-charging-hub",
           "scraped_ok": true
         },
