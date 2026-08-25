@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-24T02:23:27.257802+00:00",
+  "scraped_at": "2026-08-25T02:18:44.188736+00:00",
   "products": [
     {
       "id": 1,
@@ -94,7 +94,7 @@
       "name": "Mini 4K Fly More Combo",
       "prices": {
         "Jetayu": {
-          "price": 49999,
+          "price": 62499,
           "url": "https://jetayugadgets.com/products/dji-mini-4k-fly-more-combo",
           "scraped_ok": true
         },
@@ -202,9 +202,9 @@
           "scraped_ok": false
         },
         "Xboom": {
-          "price": 104999,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-fly-more-combo-37-min/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 104999,
@@ -476,9 +476,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 64999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -512,9 +512,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 64999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
