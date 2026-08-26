@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-25T02:18:44.188736+00:00",
+  "scraped_at": "2026-08-26T02:25:12.242604+00:00",
   "products": [
     {
       "id": 1,
@@ -21,14 +21,14 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 41999,
+          "price": null,
           "url": "https://airytek.com/dji-neo-drone-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
-          "price": 47990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-neo-fly-more-drone-combo-with-3-batteries/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 34999,
@@ -73,9 +73,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 44999,
+          "price": null,
           "url": "https://airytek.com/dji-mini-2-se-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": null,
@@ -109,17 +109,17 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 61999,
+          "price": null,
           "url": "https://airytek.com/dji-mini-4k-drone-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
-          "price": 67990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-4k-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
-          "price": 47999,
+          "price": 49999,
           "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
           "scraped_ok": true
         }
@@ -176,9 +176,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 78999,
+          "price": null,
           "url": "https://airytek.com/dji-flip-fly-more-combo-dji-rc-2-3-batteries/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": null,
@@ -202,19 +202,19 @@
           "scraped_ok": false
         },
         "Xboom": {
-          "price": null,
+          "price": 104999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-fly-more-combo-37-min/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Airytek": {
-          "price": 104999,
+          "price": null,
           "url": "https://airytek.com/dji-mini-4-pro-drone-fly-more-combo-with-rc-2-controller/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
-          "price": 94990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -238,17 +238,17 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 104999,
+          "price": null,
           "url": "https://airytek.com/dji-mini-4-pro-drone-fly-more-combo-plus-with-rc-2-controller/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
-          "price": 104990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-plus-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
-          "price": 99999,
+          "price": 104999,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
           "scraped_ok": true
         }
@@ -300,14 +300,14 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 124999,
+          "price": null,
           "url": "https://airytek.com/dji-mini-5-pro-combo-plus/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
-          "price": 125990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-5-pro-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -331,14 +331,14 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 164999,
+          "price": null,
           "url": "https://airytek.com/dji-air-3s-fly-more-combo-drone-with-3-batteries-rc2-remote/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
-          "price": 161990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-air-3s-fly-more-combo-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -378,9 +378,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": 279990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mavic-4-pro-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -404,9 +404,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 379999,
+          "price": null,
           "url": "https://airytek.com/dji-mavic-4-pro-drone-with-512gb-creator-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": null,
@@ -430,14 +430,14 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 56999,
+          "price": null,
           "url": "https://airytek.com/dji-neo-2-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
-          "price": 58990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-neo-2-drone-camera/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 49999,
@@ -466,9 +466,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 78999,
+          "price": null,
           "url": "https://airytek.com/dji-neo-2-motion-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": null,
@@ -502,9 +502,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 66000,
+          "price": null,
           "url": "https://airytek.com/dji-neo-motion-fly-more-combo-rc-motion-3-fpv-goggles-extra-battery/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": null,
@@ -543,9 +543,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": 664990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-matrice-4t-worry-free-plus-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -569,9 +569,9 @@
           "scraped_ok": false
         },
         "Airytek": {
-          "price": 493999,
+          "price": null,
           "url": "https://airytek.com/dji-matrice-4e/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -626,9 +626,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": 900000,
+          "price": null,
           "url": "https://hobitech.in/product/dji-matrice-400/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     }
