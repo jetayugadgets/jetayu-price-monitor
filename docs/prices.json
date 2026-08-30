@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-29T07:43:38.910150+00:00",
+  "scraped_at": "2026-08-30T06:20:40.956962+00:00",
   "products": [
     {
       "id": 1,
@@ -109,7 +109,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 59999,
+          "price": 49999,
           "url": "https://airytek.com/dji-mini-4k-drone-fly-more-combo/",
           "scraped_ok": true
         },
@@ -300,7 +300,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 124999,
+          "price": 129999,
           "url": "https://airytek.com/dji-mini-5-pro-combo-plus/",
           "scraped_ok": true
         },
@@ -430,7 +430,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 56999,
+          "price": 52999,
           "url": "https://airytek.com/dji-neo-2-fly-more-combo/",
           "scraped_ok": true
         },
