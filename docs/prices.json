@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-31T06:48:16.570762+00:00",
+  "scraped_at": "2026-09-01T06:07:22.320729+00:00",
   "products": [
     {
       "id": 1,
@@ -435,12 +435,12 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 58990,
           "url": "https://hobitech.in/product/dji-neo-2-drone-camera/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
-          "price": 49499,
+          "price": 49999,
           "url": "https://www.designinfo.in/p/dji-neo-2-fly-more-combo/",
           "scraped_ok": true
         }
