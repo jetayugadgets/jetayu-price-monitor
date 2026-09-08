@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-07T05:50:24.931183+00:00",
+  "scraped_at": "2026-09-08T05:43:31.442051+00:00",
   "products": [
     {
       "id": 1,
@@ -264,7 +264,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 134000,
+          "price": 141000,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro-fly-more-combo-dji-rc-2/",
           "scraped_ok": true
         },
@@ -290,7 +290,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 139000,
+          "price": 146000,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro/",
           "scraped_ok": true
         },
