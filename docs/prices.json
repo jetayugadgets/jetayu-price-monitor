@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-09T05:48:08.776840+00:00",
+  "scraped_at": "2026-09-10T05:42:31.232748+00:00",
   "products": [
     {
       "id": 1,
@@ -130,7 +130,7 @@
       "name": "Mini 3 Fly More Combo with RC",
       "prices": {
         "Jetayu": {
-          "price": 84999,
+          "price": 59999,
           "url": "https://jetayugadgets.com/products/dji-mini-3-fly-more-combo-drone-camera-with-rc",
           "scraped_ok": true
         },
@@ -425,7 +425,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 62990,
+          "price": 65990,
           "url": "https://www.xboom.in/shop/drones/selfie-drone/dji-neo/dji-neo-2-4k-smart-drone/",
           "scraped_ok": true
         },
@@ -528,7 +528,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 649900,
+          "price": 670899,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-4t/",
           "scraped_ok": true
         },
@@ -559,7 +559,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 576449,
+          "price": 596599,
           "url": "https://www.xboom.in/shop/brands/dji/dji-enterprise-series/dji-matrice-4e/",
           "scraped_ok": true
         },
