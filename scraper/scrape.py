@@ -237,16 +237,38 @@ PRODUCTS = [
             "Hobitech":    "https://hobitech.in/product/dji-matrice-400/",
         }
     },
-    # --- Add V2 Products Below ---
-    # Example format:
-    # {
-    #     "id": 22, "name": "New Product V2 Example",
-    #     "group": "v2",
-    #     "urls": {
-    #         "Jetayu": "https://jetayugadgets.com/...",
-    #         # Add competitor URLs...
-    #     }
-    # },
+    # --- V2 Products Below ---
+    {"id": 22, "name": "DJI Lito 1", "group": "v2", "urls": {"Amazon": "https://www.designinfo.in/p/dji-lito-1-drone-with-rc-n3-remote/"} },
+    {"id": 23, "name": "LITO X1", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-lito-x1-fly-more-combo-dji-rc-2", "Amazon": "https://www.designinfo.in/p/dji-lito-x1-fly-more-combo-dji-rc-2-3-standard-batteries-combo-kit/"} },
+    {"id": 24, "name": "DJI Avata 2 Fly More Combo (Three Batteries)", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-avata-2-fly-more-combo-three-batteries", "Amazon": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM", "Designinfo": "https://www.designinfo.in/p/dji-avata-2-fpv-drone-with-3-battery-fly-more-combo/"} },
+    {"id": 25, "name": "AVATA 360 Standalone", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-avata-360-standalone-dji-rc-2", "Designinfo": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/"} },
+    {"id": 26, "name": "AVATA 360 RC2", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-avata-360-standalone-dji-rc-2", "Designinfo": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/"} },
+    {"id": 27, "name": "AVATA 360 MOTION", "group": "v2", "urls": {"Jetayu": "https://www.jetayugadgets.com/products/dji-avata-360-motion-fly-more-combo", "Designinfo": "https://www.designinfo.in/p/dji-avata-360-motion-fly-more-combo-rc-motion-3-goggle-n3-3-batteries-kit/"} },
+    {"id": 28, "name": "ACTION 4 ADVENTURE", "group": "v2", "urls": {"Amazon": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC", "Designinfo": "https://www.designinfo.in/p/dji-osmo-action-4-camera-adventure-combo/"} },
+    {"id": 29, "name": "ACTION 5 ADVENTURE", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-action-5-pro-adventure-combo-1", "Amazon": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL", "Designinfo": "https://www.designinfo.in/p/dji-osmo-action-5-pro-adventure-combo/"} },
+    {"id": 30, "name": "DJI Osmo Action 6 Adventure Combo", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-action-6-adventure-combo", "Amazon": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD", "Designinfo": "https://www.designinfo.in/p/dji-osmo-action-6-adventure-combo/"} },
+    {"id": 31, "name": "OSMO NANO 64", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-nano-64-gb", "Amazon": "https://www.amazon.in/DJI-Osmo-Action-2-64G/dp/B0FBFZM45S", "Designinfo": "https://www.designinfo.in/p/dji-osmo-nano-standard-combo-64gb/"} },
+    {"id": 32, "name": "OSMO NANO 128", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-nano-128gb", "Amazon": "https://www.amazon.in/Osmo-Nano-Standard-Combo-128GB/dp/B0G21XS8JX", "Designinfo": "https://www.designinfo.in/p/dji-osmo-nano-standard-combo-128gb/"} },
+    {"id": 33, "name": "POCKET 3 Standard", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-pocket-3", "Amazon": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD", "Designinfo": "https://www.designinfo.in/p/dji-osmo-pocket-3-new-2023-gst-billing/"} },
+    {"id": 34, "name": "POCKET 3 Creator Combo", "group": "v2", "urls": {"Jetayu": "https://www.jetayugadgets.com/products/dji-osmo-pocket-3-creator-combo", "Amazon": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5", "Designinfo": "https://www.designinfo.in/p/dji-osmo-pocket-3-creator-combo-new-2023-gst-billing/"} },
+    {"id": 35, "name": "POCKET 4 Standard", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-pocket-4-standard-combo", "Amazon": "https://www.amazon.in/DJI-Standard-Tracking-Touchscreen-Stabilized/dp/B0FKTBGNR8", "Designinfo": "https://www.designinfo.in/p/dji-osmo-pocket-4-standard-combo/"} },
+    {"id": 36, "name": "POCKET 4 Creator Combo", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-pocket-4-creator-combo", "Amazon": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB", "Designinfo": "https://www.designinfo.in/p/dji-osmo-pocket-4-creator-combo/"} },
+    {"id": 37, "name": "POCKET 4P Standard", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-pocket-4p-standard-combo", "Amazon": "https://www.amazon.in/DJI-Dual-Lens-Wide-Angle-Stabilization-ActiveTrack/dp/B0H2MRDB2C", "Designinfo": "https://www.designinfo.in/p/dji-osmo-pocket-4p-standard-combo-black/"} },
+    {"id": 38, "name": "POCKET 4P VLOG COMBO", "group": "v2", "urls": {"Jetayu": "https://www.jetayugadgets.com/products/dji-osmo-pocket-4p-vlog-combo-creator-combo", "Amazon": "https://www.amazon.in/DJI-Osmo-Pocket-4P-Wide-Angle/dp/B0H8K1VM1Q", "Designinfo": "https://www.designinfo.in/p/dji-osmo-pocket-4p-vlog-combo/"} },
+    {"id": 39, "name": "MIC 2 (2TX + 1RX + Charger)", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-mic-2-2-tx-1-rx-charging-case", "Amazon": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL", "Designinfo": "https://www.designinfo.in/p/dji-mic-2-2tx-1rx_-new-2024/"} },
+    {"id": 40, "name": "DJI MIC 3 (2TX + 1RX + Charging Case)", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-mic-3-2-tx-1-rx-charging-case", "Amazon": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR"} },
+    {"id": 41, "name": "MIC MINI 2 (2TX + 1RX + Charger)", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-mic-mini-2-2-tx-1-rx-charging-case", "Amazon": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1", "Designinfo": "https://www.designinfo.in/p/dji-mic-mini-2-2-tx-1-rx-charging-case-combo-kit/"} },
+    {"id": 42, "name": "MIC MINI 2 (2TX + Mobile Rx + Charger)", "group": "v2", "urls": {"Amazon": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7", "Designinfo": "https://www.designinfo.in/p/dji-mic-mini-2-2-tx-1-mobile-rx-charging-case/"} },
+    {"id": 43, "name": "MIC MINI 2S (2TX + 1RX + Charger)", "group": "v2", "urls": {"Amazon": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67"} },
+    {"id": 44, "name": "OSMO Mobile 7", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-mobile-7", "Amazon": "https://www.amazon.in/dp/B07FSS4R16", "Designinfo": "https://www.designinfo.in/p/dji-osmo-mobile-7-smartphone-gimbal-stabilizer-dji-om7/"} },
+    {"id": 45, "name": "OSMO Mobile 7P", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-mobile-7p-series", "Amazon": "https://www.amazon.in/DJI-Stabilizer-Tracking-Lighting-Extension/dp/B07FTG84SW", "Designinfo": "https://www.designinfo.in/p/dji-om-7p-osmo-mobile-7p-smartphone-mobile-gimbal/"} },
+    {"id": 46, "name": "OSMO Mobile 8", "group": "v2", "urls": {"Amazon": "https://www.amazon.in/dp/B0FJ2L67HJ", "Designinfo": "https://www.designinfo.in/p/dji-osmo-mobile-8-smartphone-gimbal/"} },
+    {"id": 47, "name": "OSMO Mobile 8P", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-osmo-mobile-8p-advanced-tracking-combo", "Amazon": "https://www.amazon.in/DJI-Smartphone-Stabilizer-Multifunctional-ActiveTrack/dp/B0G39B4DNL", "Designinfo": "https://www.designinfo.in/p/dji-osmo-mobile-8p-advanced-tracking-combo/"} },
+    {"id": 48, "name": "DJI RS 4", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-rs4", "Amazon": "https://www.amazon.in/dp/B0CS6LC1ZQ", "Designinfo": "https://www.designinfo.in/p/dji-rs-4-gimbal-stabilizer/"} },
+    {"id": 49, "name": "DJI RS 4 Pro", "group": "v2", "urls": {"Jetayu": "https://www.jetayugadgets.com/products/dji-rs4-pro", "Amazon": "https://www.amazon.in/dp/B0CS6J2648", "Designinfo": "https://www.designinfo.in/p/dji-rs-4-pro-gimbal-stabilizer/"} },
+    {"id": 50, "name": "DJI RS 5", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/dji-rs-5", "Amazon": "https://www.amazon.in/DJI-RS-Camera-Stabiliser-Gimbal/dp/B0FLKBCT26", "Designinfo": "https://www.designinfo.in/p/dji-rs-5-gimbal-stabilizer/"} },
+    {"id": 51, "name": "INSTA 360 X5", "group": "v2", "urls": {"Jetayu": "https://jetayugadgets.com/products/insta360-x5", "Amazon": "https://www.amazon.in/Insta360-Waterproof-Replaceable-Built-Stabilization/dp/B0F3P4G8SY", "Designinfo": "https://www.designinfo.in/p/insta360-x5-360-8k-camera/"} },
+    {"id": 52, "name": "INSTA 360 X6 Essentials Bundle Black", "group": "v2", "urls": {"Amazon": "https://www.amazon.in/Insta360-Essentials-Bundle-Black-Replaceable/dp/B0H8SQKQKP", "Designinfo": "https://www.designinfo.in/p/insta360-x6-essentials-bundle-black/"} },
 ]
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -407,6 +429,17 @@ def _designinfo(url: str) -> Optional[int]:
     return extract_price_generic(soup) if soup else None
 
 
+def _amazon(url: str) -> Optional[int]:
+    soup = fetch(url)
+    if not soup:
+        return None
+    tag = soup.select_one('span.a-price-whole')
+    if tag:
+        p = clean_price(tag.get_text())
+        if p and 1000 < p < 10000000:
+            return p
+    return extract_price_generic(soup)
+
 EXTRACTORS = {
     "Jetayu":     _jetayu,
     "Xboom":      _xboom,
@@ -414,6 +447,7 @@ EXTRACTORS = {
     "Airytek":    _airytek,
     "Hobitech":   _hobitech,
     "Designinfo": _designinfo,
+    "Amazon":     _amazon,
 }
 
 # ─── Main ────────────────────────────────────────────────────────────────────
