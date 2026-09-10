@@ -237,6 +237,16 @@ PRODUCTS = [
             "Hobitech":    "https://hobitech.in/product/dji-matrice-400/",
         }
     },
+    # --- Add V2 Products Below ---
+    # Example format:
+    # {
+    #     "id": 22, "name": "New Product V2 Example",
+    #     "group": "v2",
+    #     "urls": {
+    #         "Jetayu": "https://jetayugadgets.com/...",
+    #         # Add competitor URLs...
+    #     }
+    # },
 ]
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -414,7 +424,7 @@ def scrape_all() -> dict:
 
     for product in PRODUCTS:
         log.info(f"── {product['name']}")
-        row = {"id": product["id"], "name": product["name"], "prices": {}}
+        row = {"id": product["id"], "name": product["name"], "group": product.get("group", "v1"), "prices": {}}
 
         for competitor, url in product["urls"].items():
             time.sleep(random.uniform(1, 2))  # anti-bot delay between requests

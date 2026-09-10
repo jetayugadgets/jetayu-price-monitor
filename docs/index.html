@@ -120,6 +120,36 @@
         flex-wrap: wrap;
       }
 
+      /* ── Tabs ── */
+      .tabs-wrap {
+        display: flex;
+        gap: 8px;
+        background: var(--surface2);
+        padding: 4px;
+        border-radius: 12px;
+        border: 1px solid var(--border2);
+      }
+      .tab-btn {
+        background: transparent;
+        color: var(--muted);
+        border: none;
+        padding: 6px 16px;
+        border-radius: 8px;
+        font-family: "DM Sans", sans-serif;
+        font-size: 0.85rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .tab-btn:hover {
+        color: var(--text);
+      }
+      .tab-btn.active {
+        background: var(--accent);
+        color: #fff;
+        box-shadow: 0 2px 8px var(--accent-glow);
+      }
+
       .search-wrap {
         position: relative;
       }
@@ -612,6 +642,11 @@
     </header>
 
     <div class="toolbar">
+      <div class="tabs-wrap">
+        <button class="tab-btn active" data-group="v1">V1 Products</button>
+        <button class="tab-btn" data-group="v2">V2 Products</button>
+      </div>
+
       <div class="search-wrap">
         <svg
           width="15"
@@ -735,7 +770,8 @@
             : null;
           const savings =
             jetayuPrice && lowestComp ? lowestComp - jetayuPrice : null;
-          if (savings > 0) wins++;
+          const isWin = savings > 0;
+          if (isWin) wins++;
 
           const cells = COMPETITORS.map((c) => {
             const entry = p.prices[c];
@@ -766,7 +802,7 @@
               ? `<td class="price-cell"><span class="price-tag ${savings > 0 ? "price-lowest" : savings < 0 ? "price-highest" : "price-mid"}">${savings > 0 ? "+" : ""}${fmt(savings)}</span></td>`
               : `<td class="price-cell"><span class="price-na">—</span></td>`;
 
-          html += `<tr data-name="${p.name.toLowerCase()}">
+          html += `<tr data-name="${p.name.toLowerCase()}" data-group="${p.group || 'v1'}" data-win="${isWin}">
       <td>${p.id}</td>
       <td class="product-name">${p.name}</td>
       ${cells}
@@ -789,14 +825,41 @@
         document.getElementById("price-table").style.display = "table";
       }
 
-      document.getElementById("search").addEventListener("input", function () {
-        const q = this.value.toLowerCase();
+      let currentGroup = 'v1';
+      function filterTable() {
+        const q = document.getElementById("search").value.toLowerCase();
+        let visibleCount = 0;
+        let visibleWins = 0;
+        
         document.querySelectorAll("#tbody tr").forEach((tr) => {
-          tr.style.display = tr.dataset.name.includes(q) ? "" : "none";
+          const matchSearch = tr.dataset.name.includes(q);
+          const matchGroup = tr.dataset.group === currentGroup;
+          if (matchSearch && matchGroup) {
+            tr.style.display = "";
+            visibleCount++;
+            if (tr.dataset.win === "true") visibleWins++;
+          } else {
+            tr.style.display = "none";
+          }
+        });
+        document.getElementById("stat-products").textContent = visibleCount;
+        document.getElementById("stat-wins").textContent = `${visibleWins} / ${visibleCount}`;
+      }
+
+      document.querySelectorAll(".tab-btn").forEach(btn => {
+        btn.addEventListener("click", function() {
+          document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+          this.classList.add("active");
+          currentGroup = this.dataset.group;
+          filterTable();
         });
       });
 
-      load().catch((e) => {
+      document.getElementById("search").addEventListener("input", filterTable);
+
+      load().then(() => {
+        filterTable(); // Initialize filter on load
+      }).catch((e) => {
         document.getElementById("loading").innerHTML =
           `<span style="color:#f87171">Failed to load data: ${e.message}</span>`;
       });
