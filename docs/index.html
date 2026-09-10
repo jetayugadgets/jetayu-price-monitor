@@ -728,11 +728,12 @@
         "Airytek",
         "Hobitech",
         "Designinfo",
+        "Amazon",
       ];
       const fmt = (n) => (n ? "₹" + n.toLocaleString("en-IN") : null);
 
       async function load() {
-        const res = await fetch("prices.json");
+        const res = await fetch("prices.json?t=" + Date.now());
         const data = await res.json();
 
         document.getElementById("last-scraped").textContent =
