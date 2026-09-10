@@ -1,9 +1,10 @@
 {
-  "scraped_at": "2026-09-10T05:42:31.232748+00:00",
+  "scraped_at": "2026-09-10T12:59:27.294532+00:00",
   "products": [
     {
       "id": 1,
       "name": "Neo Fly More Combo",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 44499,
@@ -40,6 +41,7 @@
     {
       "id": 2,
       "name": "Neo Standard",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 30499,
@@ -56,6 +58,7 @@
     {
       "id": 3,
       "name": "Mini 2 SE Standard",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 45999,
@@ -92,6 +95,7 @@
     {
       "id": 4,
       "name": "Mini 4K Fly More Combo",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 62499,
@@ -128,6 +132,7 @@
     {
       "id": 5,
       "name": "Mini 3 Fly More Combo with RC",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 59999,
@@ -159,6 +164,7 @@
     {
       "id": 6,
       "name": "Flip Fly More Combo",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 69999,
@@ -190,6 +196,7 @@
     {
       "id": 7,
       "name": "Mini 4 Pro Fly More Combo – 34 min",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 103999,
@@ -221,6 +228,7 @@
     {
       "id": 8,
       "name": "Mini 4 Pro Fly More Combo Plus – 45 min",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 106999,
@@ -257,6 +265,7 @@
     {
       "id": 9,
       "name": "Mini 5 Pro Fly More Combo – 36 min",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 128999,
@@ -283,6 +292,7 @@
     {
       "id": 10,
       "name": "Mini 5 Pro Fly More Combo Plus – 52 min",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 138499,
@@ -300,7 +310,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 129999,
+          "price": 134999,
           "url": "https://airytek.com/dji-mini-5-pro-combo-plus/",
           "scraped_ok": true
         },
@@ -314,6 +324,7 @@
     {
       "id": 11,
       "name": "Air 3S Fly More Combo RC2",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 162999,
@@ -345,6 +356,7 @@
     {
       "id": 12,
       "name": "Mavic 4 Pro Standard",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 243999,
@@ -361,6 +373,7 @@
     {
       "id": 13,
       "name": "Mavic 4 Pro Fly More Combo",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 298999,
@@ -387,6 +400,7 @@
     {
       "id": 14,
       "name": "Mavic 4 Pro 512GB Creator Combo",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 394999,
@@ -418,6 +432,7 @@
     {
       "id": 15,
       "name": "Neo 2 Combo",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 62499,
@@ -449,6 +464,7 @@
     {
       "id": 16,
       "name": "Neo 2 Motion Fly More Combo",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 68999,
@@ -485,6 +501,7 @@
     {
       "id": 17,
       "name": "Neo Motion Combo",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 58999,
@@ -521,6 +538,7 @@
     {
       "id": 18,
       "name": "DJI M4T (Mavic 4 Thermal)",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 608999,
@@ -552,6 +570,7 @@
     {
       "id": 19,
       "name": "DJI M4E (Matrice 4 Enterprise)",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 506999,
@@ -578,6 +597,7 @@
     {
       "id": 20,
       "name": "DJI Matrice 350 (M350)",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 813999,
@@ -609,6 +629,7 @@
     {
       "id": 21,
       "name": "DJI Matrice 400 (M400)",
+      "group": "v1",
       "prices": {
         "Jetayu": {
           "price": 1177999,
@@ -628,6 +649,623 @@
         "Hobitech": {
           "price": 900000,
           "url": "https://hobitech.in/product/dji-matrice-400/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "DJI Lito 1",
+      "group": "v2",
+      "prices": {
+        "Amazon": {
+          "price": 49999,
+          "url": "https://www.designinfo.in/p/dji-lito-1-drone-with-rc-n3-remote/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 23,
+      "name": "LITO X1",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 102999,
+          "url": "https://jetayugadgets.com/products/dji-lito-x1-fly-more-combo-dji-rc-2",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 82999,
+          "url": "https://www.designinfo.in/p/dji-lito-x1-fly-more-combo-dji-rc-2-3-standard-batteries-combo-kit/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 24,
+      "name": "DJI Avata 2 Fly More Combo (Three Batteries)",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 107999,
+          "url": "https://jetayugadgets.com/products/dji-avata-2-fly-more-combo-three-batteries",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 16810,
+          "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 121999,
+          "url": "https://www.designinfo.in/p/dji-avata-2-fpv-drone-with-3-battery-fly-more-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 25,
+      "name": "AVATA 360 Standalone",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 98499,
+          "url": "https://jetayugadgets.com/products/dji-avata-360-standalone-dji-rc-2",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 99999,
+          "url": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 26,
+      "name": "AVATA 360 RC2",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 98499,
+          "url": "https://jetayugadgets.com/products/dji-avata-360-standalone-dji-rc-2",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 99999,
+          "url": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 27,
+      "name": "AVATA 360 MOTION",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 134999,
+          "url": "https://www.jetayugadgets.com/products/dji-avata-360-motion-fly-more-combo",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 109999,
+          "url": "https://www.designinfo.in/p/dji-avata-360-motion-fly-more-combo-rc-motion-3-goggle-n3-3-batteries-kit/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 28,
+      "name": "ACTION 4 ADVENTURE",
+      "group": "v2",
+      "prices": {
+        "Amazon": {
+          "price": 35990,
+          "url": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 31999,
+          "url": "https://www.designinfo.in/p/dji-osmo-action-4-camera-adventure-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 29,
+      "name": "ACTION 5 ADVENTURE",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 38499,
+          "url": "https://jetayugadgets.com/products/dji-osmo-action-5-pro-adventure-combo-1",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 44990,
+          "url": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 40499,
+          "url": "https://www.designinfo.in/p/dji-osmo-action-5-pro-adventure-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 30,
+      "name": "DJI Osmo Action 6 Adventure Combo",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 44499,
+          "url": "https://jetayugadgets.com/products/dji-osmo-action-6-adventure-combo",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 44990,
+          "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 48999,
+          "url": "https://www.designinfo.in/p/dji-osmo-action-6-adventure-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 31,
+      "name": "OSMO NANO 64",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 25499,
+          "url": "https://jetayugadgets.com/products/dji-osmo-nano-64-gb",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 31990,
+          "url": "https://www.amazon.in/DJI-Osmo-Action-2-64G/dp/B0FBFZM45S",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 25999,
+          "url": "https://www.designinfo.in/p/dji-osmo-nano-standard-combo-64gb/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 32,
+      "name": "OSMO NANO 128",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 29499,
+          "url": "https://jetayugadgets.com/products/dji-osmo-nano-128gb",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 34990,
+          "url": "https://www.amazon.in/Osmo-Nano-Standard-Combo-128GB/dp/B0G21XS8JX",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 31999,
+          "url": "https://www.designinfo.in/p/dji-osmo-nano-standard-combo-128gb/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 33,
+      "name": "POCKET 3 Standard",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 44949,
+          "url": "https://jetayugadgets.com/products/dji-osmo-pocket-3",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 49990,
+          "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 32999,
+          "url": "https://www.designinfo.in/p/dji-osmo-pocket-3-new-2023-gst-billing/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 34,
+      "name": "POCKET 3 Creator Combo",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 41999,
+          "url": "https://www.jetayugadgets.com/products/dji-osmo-pocket-3-creator-combo",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 35990,
+          "url": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 40999,
+          "url": "https://www.designinfo.in/p/dji-osmo-pocket-3-creator-combo-new-2023-gst-billing/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 35,
+      "name": "POCKET 4 Standard",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 44899,
+          "url": "https://jetayugadgets.com/products/dji-osmo-pocket-4-standard-combo",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 35990,
+          "url": "https://www.amazon.in/DJI-Standard-Tracking-Touchscreen-Stabilized/dp/B0FKTBGNR8",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 49999,
+          "url": "https://www.designinfo.in/p/dji-osmo-pocket-4-standard-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 36,
+      "name": "POCKET 4 Creator Combo",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 58999,
+          "url": "https://jetayugadgets.com/products/dji-osmo-pocket-4-creator-combo",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 35990,
+          "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 59899,
+          "url": "https://www.designinfo.in/p/dji-osmo-pocket-4-creator-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 37,
+      "name": "POCKET 4P Standard",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 71999,
+          "url": "https://jetayugadgets.com/products/dji-osmo-pocket-4p-standard-combo",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 132108,
+          "url": "https://www.amazon.in/DJI-Dual-Lens-Wide-Angle-Stabilization-ActiveTrack/dp/B0H2MRDB2C",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 71499,
+          "url": "https://www.designinfo.in/p/dji-osmo-pocket-4p-standard-combo-black/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": "POCKET 4P VLOG COMBO",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 82499,
+          "url": "https://www.jetayugadgets.com/products/dji-osmo-pocket-4p-vlog-combo-creator-combo",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 3778,
+          "url": "https://www.amazon.in/DJI-Osmo-Pocket-4P-Wide-Angle/dp/B0H8K1VM1Q",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 85999,
+          "url": "https://www.designinfo.in/p/dji-osmo-pocket-4p-vlog-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": "MIC 2 (2TX + 1RX + Charger)",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 22999,
+          "url": "https://jetayugadgets.com/products/dji-mic-2-2-tx-1-rx-charging-case",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 9500,
+          "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 24999,
+          "url": "https://www.designinfo.in/p/dji-mic-2-2tx-1rx_-new-2024/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": "DJI MIC 3 (2TX + 1RX + Charging Case)",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 25999,
+          "url": "https://jetayugadgets.com/products/dji-mic-3-2-tx-1-rx-charging-case",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 31000,
+          "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": "MIC MINI 2 (2TX + 1RX + Charger)",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 10499,
+          "url": "https://jetayugadgets.com/products/dji-mic-mini-2-2-tx-1-rx-charging-case",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 10799,
+          "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 10499,
+          "url": "https://www.designinfo.in/p/dji-mic-mini-2-2-tx-1-rx-charging-case-combo-kit/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 42,
+      "name": "MIC MINI 2 (2TX + Mobile Rx + Charger)",
+      "group": "v2",
+      "prices": {
+        "Amazon": {
+          "price": 10799,
+          "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 8499,
+          "url": "https://www.designinfo.in/p/dji-mic-mini-2-2-tx-1-mobile-rx-charging-case/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 43,
+      "name": "MIC MINI 2S (2TX + 1RX + Charger)",
+      "group": "v2",
+      "prices": {
+        "Amazon": {
+          "price": 11689,
+          "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": "OSMO Mobile 7",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 4999,
+          "url": "https://jetayugadgets.com/products/dji-osmo-mobile-7",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 11990,
+          "url": "https://www.amazon.in/dp/B07FSS4R16",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 5699,
+          "url": "https://www.designinfo.in/p/dji-osmo-mobile-7-smartphone-gimbal-stabilizer-dji-om7/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 45,
+      "name": "OSMO Mobile 7P",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 7999,
+          "url": "https://jetayugadgets.com/products/dji-osmo-mobile-7p-series",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 11990,
+          "url": "https://www.amazon.in/DJI-Stabilizer-Tracking-Lighting-Extension/dp/B07FTG84SW",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 8499,
+          "url": "https://www.designinfo.in/p/dji-om-7p-osmo-mobile-7p-smartphone-mobile-gimbal/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 46,
+      "name": "OSMO Mobile 8",
+      "group": "v2",
+      "prices": {
+        "Amazon": {
+          "price": 16990,
+          "url": "https://www.amazon.in/dp/B0FJ2L67HJ",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 9999,
+          "url": "https://www.designinfo.in/p/dji-osmo-mobile-8-smartphone-gimbal/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": "OSMO Mobile 8P",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 13999,
+          "url": "https://jetayugadgets.com/products/dji-osmo-mobile-8p-advanced-tracking-combo",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 13990,
+          "url": "https://www.amazon.in/DJI-Smartphone-Stabilizer-Multifunctional-ActiveTrack/dp/B0G39B4DNL",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 15499,
+          "url": "https://www.designinfo.in/p/dji-osmo-mobile-8p-advanced-tracking-combo/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 48,
+      "name": "DJI RS 4",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 46000,
+          "url": "https://jetayugadgets.com/products/dji-rs4",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 29990,
+          "url": "https://www.amazon.in/dp/B0CS6LC1ZQ",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 35499,
+          "url": "https://www.designinfo.in/p/dji-rs-4-gimbal-stabilizer/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 49,
+      "name": "DJI RS 4 Pro",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 80000,
+          "url": "https://www.jetayugadgets.com/products/dji-rs4-pro",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 51990,
+          "url": "https://www.amazon.in/dp/B0CS6J2648",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 76999,
+          "url": "https://www.designinfo.in/p/dji-rs-4-pro-gimbal-stabilizer/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 50,
+      "name": "DJI RS 5",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 50999,
+          "url": "https://jetayugadgets.com/products/dji-rs-5",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 61000,
+          "url": "https://www.amazon.in/DJI-RS-Camera-Stabiliser-Gimbal/dp/B0FLKBCT26",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 45999,
+          "url": "https://www.designinfo.in/p/dji-rs-5-gimbal-stabilizer/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": "INSTA 360 X5",
+      "group": "v2",
+      "prices": {
+        "Jetayu": {
+          "price": 50999,
+          "url": "https://jetayugadgets.com/products/insta360-x5",
+          "scraped_ok": true
+        },
+        "Amazon": {
+          "price": 45990,
+          "url": "https://www.amazon.in/Insta360-Waterproof-Replaceable-Built-Stabilization/dp/B0F3P4G8SY",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 46399,
+          "url": "https://www.designinfo.in/p/insta360-x5-360-8k-camera/",
+          "scraped_ok": true
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": "INSTA 360 X6 Essentials Bundle Black",
+      "group": "v2",
+      "prices": {
+        "Amazon": {
+          "price": 99990,
+          "url": "https://www.amazon.in/Insta360-Essentials-Bundle-Black-Replaceable/dp/B0H8SQKQKP",
+          "scraped_ok": true
+        },
+        "Designinfo": {
+          "price": 79999,
+          "url": "https://www.designinfo.in/p/insta360-x6-essentials-bundle-black/",
           "scraped_ok": true
         }
       }
