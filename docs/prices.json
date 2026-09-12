@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-11T05:41:59.359724+00:00",
+  "scraped_at": "2026-09-12T05:28:58.275317+00:00",
   "products": [
     {
       "id": 1,
@@ -27,9 +27,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 47990,
           "url": "https://hobitech.in/product/dji-neo-fly-more-drone-combo-with-3-batteries/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 34999,
@@ -487,9 +487,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": null,
+          "price": 83990,
           "url": "https://hobitech.in/product/dji-neo-2-motion-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 64999,
@@ -561,9 +561,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": null,
+          "price": 664990,
           "url": "https://hobitech.in/product/dji-matrice-4t-worry-free-plus-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -583,9 +583,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 525000,
+          "price": null,
           "url": "https://everse.in/product/dji-matrice-4e-worry-free-plus-combo",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 493999,
@@ -620,9 +620,9 @@
           "scraped_ok": false
         },
         "Hobitech": {
-          "price": null,
+          "price": 970000,
           "url": "https://hobitech.in/product/dji-matrice-350-rtk-drone/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -800,7 +800,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 44499,
+          "price": 43999,
           "url": "https://jetayugadgets.com/products/dji-osmo-action-6-adventure-combo",
           "scraped_ok": true
         },
@@ -810,7 +810,7 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 48999,
+          "price": 49499,
           "url": "https://www.designinfo.in/p/dji-osmo-action-6-adventure-combo/",
           "scraped_ok": true
         }
@@ -822,7 +822,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 25499,
+          "price": 24999,
           "url": "https://jetayugadgets.com/products/dji-osmo-nano-64-gb",
           "scraped_ok": true
         },
@@ -866,14 +866,14 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 44949,
+          "price": 30499,
           "url": "https://jetayugadgets.com/products/dji-osmo-pocket-3",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 49990,
+          "price": null,
           "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 34999,
@@ -893,9 +893,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 35990,
+          "price": null,
           "url": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 40999,
@@ -915,9 +915,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 35990,
+          "price": null,
           "url": "https://www.amazon.in/DJI-Standard-Tracking-Touchscreen-Stabilized/dp/B0FKTBGNR8",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 49999,
@@ -937,9 +937,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 35990,
+          "price": null,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 59899,
@@ -976,7 +976,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 82499,
+          "price": 80499,
           "url": "https://www.jetayugadgets.com/products/dji-osmo-pocket-4p-vlog-combo-creator-combo",
           "scraped_ok": true
         },
@@ -998,12 +998,12 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 22999,
+          "price": 20999,
           "url": "https://jetayugadgets.com/products/dji-mic-2-2-tx-1-rx-charging-case",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 14999,
+          "price": 9312,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1020,12 +1020,12 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 25999,
+          "price": 24999,
           "url": "https://jetayugadgets.com/products/dji-mic-3-2-tx-1-rx-charging-case",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 31000,
+          "price": 27600,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 14999,
+          "price": 10799,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11670,
+          "price": 12180,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
@@ -1171,7 +1171,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 46000,
+          "price": 35999,
           "url": "https://jetayugadgets.com/products/dji-rs4",
           "scraped_ok": true
         },
@@ -1198,7 +1198,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 65000,
           "url": "https://www.amazon.in/dp/B0CS6J2648",
           "scraped_ok": true
         },
@@ -1215,9 +1215,9 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 50999,
+          "price": null,
           "url": "https://jetayugadgets.com/products/dji-rs-5",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Amazon": {
           "price": 61000,
@@ -1237,7 +1237,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 50999,
+          "price": 49999,
           "url": "https://jetayugadgets.com/products/insta360-x5",
           "scraped_ok": true
         },
