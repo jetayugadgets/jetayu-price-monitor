@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-13T05:45:41.874311+00:00",
+  "scraped_at": "2026-09-14T05:56:20.388059+00:00",
   "products": [
     {
       "id": 1,
@@ -492,9 +492,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 64999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -529,9 +529,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 64999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -693,9 +693,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 16810,
+          "price": null,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 121999,
@@ -761,9 +761,9 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 35990,
+          "price": null,
           "url": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 31999,
@@ -783,9 +783,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 44990,
+          "price": null,
           "url": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 40499,
@@ -937,7 +937,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 69990,
+          "price": 35990,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
@@ -986,7 +986,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 85999,
+          "price": 84999,
           "url": "https://www.designinfo.in/p/dji-osmo-pocket-4p-vlog-combo/",
           "scraped_ok": true
         }
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9300,
+          "price": 9290,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 8999,
+          "price": 11680,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11750,
+          "price": 11680,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
