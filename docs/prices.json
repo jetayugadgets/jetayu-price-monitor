@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-16T05:46:17.078443+00:00",
+  "scraped_at": "2026-09-17T05:53:47.447981+00:00",
   "products": [
     {
       "id": 1,
@@ -27,9 +27,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 47990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-neo-fly-more-drone-combo-with-3-batteries/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 34999,
@@ -81,9 +81,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 67990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-2-se-standard-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 43999,
@@ -118,9 +118,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 67990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-4k-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 49999,
@@ -150,9 +150,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 84990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-mini-3-fly-more-combo-dji-rc-51/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 79999,
@@ -187,9 +187,9 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 87990,
+          "price": null,
           "url": "https://hobitech.in/product/dji-flip-fly-more-combo-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -310,7 +310,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 134999,
+          "price": 129999,
           "url": "https://airytek.com/dji-mini-5-pro-combo-plus/",
           "scraped_ok": true
         },
@@ -445,7 +445,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 49999,
+          "price": 52999,
           "url": "https://airytek.com/dji-neo-2-fly-more-combo/",
           "scraped_ok": true
         },
@@ -637,7 +637,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 924000,
+          "price": 944000,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-400/",
           "scraped_ok": true
         },
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 16810,
+          "price": 16833,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -805,7 +805,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 1349,
+          "price": 44990,
           "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
           "scraped_ok": true
         },
@@ -832,7 +832,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 25999,
+          "price": 28999,
           "url": "https://www.designinfo.in/p/dji-osmo-nano-standard-combo-64gb/",
           "scraped_ok": true
         }
@@ -898,9 +898,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 40999,
           "url": "https://www.designinfo.in/p/dji-osmo-pocket-3-creator-combo-new-2023-gst-billing/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 27400,
+          "price": 28400,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 10799,
+          "price": 10588,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1159,9 +1159,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 15499,
           "url": "https://www.designinfo.in/p/dji-osmo-mobile-8p-advanced-tracking-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
