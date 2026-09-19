@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-18T05:39:01.929115+00:00",
+  "scraped_at": "2026-09-19T05:34:01.296760+00:00",
   "products": [
     {
       "id": 1,
@@ -445,7 +445,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 52999,
+          "price": 54999,
           "url": "https://airytek.com/dji-neo-2-fly-more-combo/",
           "scraped_ok": true
         },
@@ -805,9 +805,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 44990,
           "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 49499,
@@ -827,9 +827,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 31990,
           "url": "https://www.amazon.in/DJI-Osmo-Action-2-64G/dp/B0FBFZM45S",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 28999,
@@ -849,9 +849,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 34990,
           "url": "https://www.amazon.in/Osmo-Nano-Standard-Combo-128GB/dp/B0G21XS8JX",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 31999,
@@ -866,14 +866,14 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 30499,
+          "price": 29999,
           "url": "https://jetayugadgets.com/products/dji-osmo-pocket-3",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 49990,
           "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 32999,
@@ -888,14 +888,14 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 41999,
+          "price": 31999,
           "url": "https://www.jetayugadgets.com/products/dji-osmo-pocket-3-creator-combo",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 35990,
           "url": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 40999,
@@ -915,9 +915,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 35990,
           "url": "https://www.amazon.in/DJI-Standard-Tracking-Touchscreen-Stabilized/dp/B0FKTBGNR8",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 49999,
@@ -937,9 +937,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 35990,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 59899,
@@ -959,9 +959,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 132108,
           "url": "https://www.amazon.in/DJI-Dual-Lens-Wide-Angle-Stabilization-ActiveTrack/dp/B0H2MRDB2C",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 71499,
@@ -981,9 +981,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 69990,
           "url": "https://www.amazon.in/DJI-Osmo-Pocket-4P-Wide-Angle/dp/B0H8K1VM1Q",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 84999,
@@ -1003,12 +1003,12 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 13999,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
-          "price": 24999,
+          "price": 22999,
           "url": "https://www.designinfo.in/p/dji-mic-2-2tx-1rx_-new-2024/",
           "scraped_ok": true
         }
@@ -1025,9 +1025,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 27400,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11550,
+          "price": 13999,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11550,
+          "price": 11560,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
