@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-19T05:34:01.296760+00:00",
+  "scraped_at": "2026-09-20T05:52:55.233245+00:00",
   "products": [
     {
       "id": 1,
@@ -310,7 +310,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 129999,
+          "price": 131999,
           "url": "https://airytek.com/dji-mini-5-pro-combo-plus/",
           "scraped_ok": true
         },
@@ -693,9 +693,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 64999,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 121999,
@@ -761,9 +761,9 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": null,
+          "price": 45990,
           "url": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 31999,
@@ -783,9 +783,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 54890,
           "url": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 40499,
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 27400,
+          "price": 26900,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11560,
+          "price": 11800,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
@@ -1247,7 +1247,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 46399,
+          "price": 46999,
           "url": "https://www.designinfo.in/p/insta360-x5-360-8k-camera/",
           "scraped_ok": true
         }
