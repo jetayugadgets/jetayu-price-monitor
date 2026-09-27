@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-26T05:57:48.115189+00:00",
+  "scraped_at": "2026-09-27T06:24:30.614877+00:00",
   "products": [
     {
       "id": 1,
@@ -49,7 +49,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 26999,
+          "price": 27999,
           "url": "https://everse.in/product/dji-neo-no-rc",
           "scraped_ok": true
         }
@@ -140,9 +140,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 89500,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-3-fly-more-combo-remote-controller-with-screen/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 84999,
@@ -155,9 +155,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 79999,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -172,9 +172,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 83900,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-flip/dji-flip-flymore-combo-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 83999,
@@ -300,9 +300,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 146000,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 134099,
@@ -492,9 +492,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 64999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -529,9 +529,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 64999,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 64999,
+          "price": 16833,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -749,9 +749,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 109999,
           "url": "https://www.designinfo.in/p/dji-avata-360-motion-fly-more-combo-rc-motion-3-goggle-n3-3-batteries-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -805,7 +805,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 45990,
+          "price": 44990,
           "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
           "scraped_ok": true
         },
@@ -871,7 +871,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 49890,
+          "price": 52990,
           "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 8965,
+          "price": 13499,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 26950,
+          "price": 29700,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9260,
+          "price": 9230,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 9260,
+          "price": 13499,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
@@ -1098,9 +1098,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 5699,
           "url": "https://www.designinfo.in/p/dji-osmo-mobile-7-smartphone-gimbal-stabilizer-dji-om7/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
