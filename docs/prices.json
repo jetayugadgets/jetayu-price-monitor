@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-01T06:59:37.984410+00:00",
+  "scraped_at": "2026-10-02T06:49:07.540887+00:00",
   "products": [
     {
       "id": 1,
@@ -32,9 +32,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 34999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -155,9 +155,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 79999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -256,9 +256,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 104999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -278,7 +278,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 126999,
+          "price": 139999,
           "url": "https://everse.in/product/mini-5-pro-combo-36-min",
           "scraped_ok": true
         },
@@ -305,7 +305,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 134099,
+          "price": 144999,
           "url": "https://everse.in/product/dji-mini-5-pro",
           "scraped_ok": true
         },
@@ -492,9 +492,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 64999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -529,9 +529,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 64999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -659,9 +659,9 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 49999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-lito-1-drone-with-rc-n3-remote/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -676,9 +676,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 82999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-lito-x1-fly-more-combo-dji-rc-2-3-standard-batteries-combo-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 64999,
+          "price": 16833,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -715,9 +715,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 99999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -732,9 +732,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 99999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -749,9 +749,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 109999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-avata-360-motion-fly-more-combo-rc-motion-3-goggle-n3-3-batteries-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -761,14 +761,14 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 45890,
+          "price": 35990,
           "url": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC",
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 31999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-osmo-action-4-camera-adventure-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -959,7 +959,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 132108,
+          "price": 135848,
           "url": "https://www.amazon.in/DJI-Dual-Lens-Wide-Angle-Stabilization-ActiveTrack/dp/B0H2MRDB2C",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9499,
+          "price": 9710,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 29500,
+          "price": 28100,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 12475,
+          "price": 12400,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
@@ -1159,9 +1159,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 15499,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-osmo-mobile-8p-advanced-tracking-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
