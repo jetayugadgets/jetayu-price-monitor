@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-02T06:49:07.540887+00:00",
+  "scraped_at": "2026-10-03T06:12:15.752824+00:00",
   "products": [
     {
       "id": 1,
@@ -32,9 +32,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 34999,
           "url": "https://www.designinfo.in/p/dji-neo-fly-more-combo-3-batteries-remote-charging-hub/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -86,9 +86,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 43999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-2-se-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -256,9 +256,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 104999,
           "url": "https://www.designinfo.in/p/dji-mini-4-pro-drone-plus-series-45-min-fly-more-combo-with-rc-2-controller/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -676,9 +676,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 82999,
           "url": "https://www.designinfo.in/p/dji-lito-x1-fly-more-combo-dji-rc-2-3-standard-batteries-combo-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 16833,
+          "price": 64999,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -715,9 +715,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 99999,
           "url": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -732,9 +732,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 99999,
           "url": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -749,9 +749,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 109999,
           "url": "https://www.designinfo.in/p/dji-avata-360-motion-fly-more-combo-rc-motion-3-goggle-n3-3-batteries-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -761,14 +761,14 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 35990,
+          "price": 45790,
           "url": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC",
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 31999,
           "url": "https://www.designinfo.in/p/dji-osmo-action-4-camera-adventure-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -1003,14 +1003,14 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9710,
+          "price": 13499,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 22999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mic-2-2tx-1rx_-new-2024/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 28100,
+          "price": 27500,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 9230,
+          "price": 13499,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
@@ -1120,9 +1120,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 8499,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-om-7p-osmo-mobile-7p-smartphone-mobile-gimbal/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -1159,9 +1159,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 15499,
           "url": "https://www.designinfo.in/p/dji-osmo-mobile-8p-advanced-tracking-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
