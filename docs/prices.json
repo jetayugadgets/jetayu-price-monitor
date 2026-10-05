@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-04T06:40:34.727845+00:00",
+  "scraped_at": "2026-10-05T06:39:12.810282+00:00",
   "products": [
     {
       "id": 1,
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 16833,
+          "price": 64999,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -893,7 +893,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 35990,
+          "price": 69990,
           "url": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9690,
+          "price": 12999,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 27000,
+          "price": 26830,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 9230,
+          "price": 12999,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 12360,
+          "price": 12330,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
@@ -1198,7 +1198,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 82990,
+          "price": 65000,
           "url": "https://www.amazon.in/dp/B0CS6J2648",
           "scraped_ok": true
         },
