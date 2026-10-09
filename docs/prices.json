@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-08T07:07:49.207108+00:00",
+  "scraped_at": "2026-10-09T07:13:11.910103+00:00",
   "products": [
     {
       "id": 1,
@@ -12,9 +12,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 46400,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 43999,
@@ -103,9 +103,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 62999,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-4k-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 64899,
@@ -209,9 +209,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 104999,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-fly-more-combo-37-min/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 104999,
@@ -236,9 +236,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 109999,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-drone-camera-fly-more-combo-plus/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 115999,
@@ -273,9 +273,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 146000,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro-fly-more-combo-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 139999,
@@ -300,9 +300,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 151000,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-5-pro/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 144999,
@@ -332,9 +332,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 183999,
+          "price": null,
           "url": "https://www.xboom.in/shop/drone-shop-by-price/rs-1-3l-rs-1-5l/dji-air-3s-fly-more-combo-dji-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 186999,
@@ -408,9 +408,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 409999,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 394999,
@@ -509,9 +509,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 64900,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-neo-motion-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 63999,
@@ -546,9 +546,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 670899,
+          "price": null,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-4t/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 607999,
@@ -578,9 +578,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 596599,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-enterprise-series/dji-matrice-4e/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 539999,
@@ -605,9 +605,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 949000,
+          "price": null,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-350-rtk-basic-combo-drone/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 980000,
@@ -637,12 +637,12 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 944000,
+          "price": null,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-400/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
-          "price": 1180000,
+          "price": 1380000,
           "url": "https://everse.in/product/dji-matrice-400",
           "scraped_ok": true
         },
@@ -915,7 +915,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 33990,
+          "price": 75990,
           "url": "https://www.amazon.in/DJI-Standard-Tracking-Touchscreen-Stabilized/dp/B0FKTBGNR8",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 10564,
+          "price": 10032,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 32500,
+          "price": 28800,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9980,
+          "price": 10949,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 13999,
+          "price": 13499,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 12990,
+          "price": 12673,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
