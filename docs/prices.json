@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-11T06:55:03.133843+00:00",
+  "scraped_at": "2026-10-12T07:05:03.742085+00:00",
   "products": [
     {
       "id": 1,
@@ -954,7 +954,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 71999,
+          "price": 64499,
           "url": "https://jetayugadgets.com/products/dji-osmo-pocket-4p-standard-combo",
           "scraped_ok": true
         },
@@ -976,7 +976,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 81999,
+          "price": 80499,
           "url": "https://www.jetayugadgets.com/products/dji-osmo-pocket-4p-vlog-combo-creator-combo",
           "scraped_ok": true
         },
@@ -986,7 +986,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 81999,
+          "price": 79999,
           "url": "https://www.designinfo.in/p/dji-osmo-pocket-4p-vlog-combo/",
           "scraped_ok": true
         }
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9710,
+          "price": 9600,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 26980,
+          "price": 27270,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 12490,
+          "price": 12435,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
@@ -1198,7 +1198,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 50990,
           "url": "https://www.amazon.in/dp/B0CS6J2648",
           "scraped_ok": true
         },
