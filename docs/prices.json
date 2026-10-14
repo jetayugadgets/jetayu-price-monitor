@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-13T07:29:32.772238+00:00",
+  "scraped_at": "2026-10-14T05:55:32.103263+00:00",
   "products": [
     {
       "id": 1,
@@ -251,7 +251,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 112990,
+          "price": 122990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-plus-dji-rc-2/",
           "scraped_ok": true
         },
@@ -810,7 +810,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 49499,
+          "price": 49999,
           "url": "https://www.designinfo.in/p/dji-osmo-action-6-adventure-combo/",
           "scraped_ok": true
         }
@@ -942,9 +942,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 59899,
           "url": "https://www.designinfo.in/p/dji-osmo-pocket-4-creator-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -954,12 +954,12 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 64499,
+          "price": 63999,
           "url": "https://jetayugadgets.com/products/dji-osmo-pocket-4p-standard-combo",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 107990,
           "url": "https://www.amazon.in/DJI-Dual-Lens-Wide-Angle-Stabilization-ActiveTrack/dp/B0H2MRDB2C",
           "scraped_ok": true
         },
@@ -976,7 +976,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 80499,
+          "price": 72499,
           "url": "https://www.jetayugadgets.com/products/dji-osmo-pocket-4p-vlog-combo-creator-combo",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 10232,
+          "price": 9855,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 26730,
+          "price": 26690,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 12480,
+          "price": 12460,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
@@ -1120,9 +1120,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 8499,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-om-7p-osmo-mobile-7p-smartphone-mobile-gimbal/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -1132,7 +1132,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 13990,
+          "price": 16990,
           "url": "https://www.amazon.in/dp/B0FJ2L67HJ",
           "scraped_ok": true
         },
@@ -1176,7 +1176,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 41990,
+          "price": 53990,
           "url": "https://www.amazon.in/dp/B0CS6LC1ZQ",
           "scraped_ok": true
         },
@@ -1198,7 +1198,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 50990,
+          "price": 63990,
           "url": "https://www.amazon.in/dp/B0CS6J2648",
           "scraped_ok": true
         },
@@ -1220,7 +1220,7 @@
           "scraped_ok": false
         },
         "Amazon": {
-          "price": 41990,
+          "price": 63990,
           "url": "https://www.amazon.in/DJI-RS-Camera-Stabiliser-Gimbal/dp/B0FLKBCT26",
           "scraped_ok": true
         },
