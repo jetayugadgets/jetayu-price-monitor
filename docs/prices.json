@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-15T05:40:34.521199+00:00",
+  "scraped_at": "2026-10-16T05:36:11.146565+00:00",
   "products": [
     {
       "id": 1,
@@ -17,9 +17,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 43999,
+          "price": null,
           "url": "https://everse.in/product/dji-neo-fly-more-combo",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 41999,
@@ -49,9 +49,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 27999,
+          "price": null,
           "url": "https://everse.in/product/dji-neo-no-rc",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -71,9 +71,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 44999,
+          "price": null,
           "url": "https://everse.in/product/dji-mini-2se-standard",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 44999,
@@ -108,9 +108,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 64899,
+          "price": null,
           "url": "https://everse.in/product/dji-mini-4k-fly-more-combo",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 49999,
@@ -145,9 +145,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 84999,
+          "price": null,
           "url": "https://everse.in/product/dji-mini-3-fly-more-combo-drone-camera-with-rc",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": null,
@@ -177,9 +177,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 83999,
+          "price": null,
           "url": "https://everse.in/product/dji-flip-fly-more-combo-dji-rc-2",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 78999,
@@ -204,9 +204,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 110000,
+          "price": null,
           "url": "https://everse.in/product/dji-mini-4-pro-drone-camera-fly-more-combo-dji-rc-2-34-mins",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Xboom": {
           "price": 104999,
@@ -241,9 +241,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 115999,
+          "price": null,
           "url": "https://everse.in/product/dji-mini-4-pro-drone-camera-fly-more-combo-plus-45-mins",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 104999,
@@ -278,9 +278,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 139999,
+          "price": null,
           "url": "https://everse.in/product/mini-5-pro-combo-36-min",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Designinfo": {
           "price": 115999,
@@ -305,9 +305,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 144999,
+          "price": null,
           "url": "https://everse.in/product/dji-mini-5-pro",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 134999,
@@ -332,14 +332,14 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 183999,
+          "price": 194999,
           "url": "https://www.xboom.in/shop/drone-shop-by-price/rs-1-3l-rs-1-5l/dji-air-3s-fly-more-combo-dji-rc-2/",
           "scraped_ok": true
         },
         "Everse": {
-          "price": 186999,
+          "price": null,
           "url": "https://everse.in/product/dji-air-3s-fly-more-combo-with-smart-controller",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 164999,
@@ -364,9 +364,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 230000,
+          "price": null,
           "url": "https://everse.in/product/dji-mavic-4-pro",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -386,9 +386,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 299999,
+          "price": null,
           "url": "https://everse.in/product/dji-mavic-4-pro-drone-fly-more-combo-with-rc-2-remote-controller",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": 339990,
@@ -413,9 +413,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 394999,
+          "price": null,
           "url": "https://everse.in/product/dji-mavic-4-pro-drone-creator-combo-with-rc-pro-2-remote-controller",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 389999,
@@ -477,9 +477,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 84999,
+          "price": null,
           "url": "https://everse.in/product/dji-neo-2-motion-fly-more-combo",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 78999,
@@ -514,9 +514,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 63999,
+          "price": null,
           "url": "https://everse.in/product/dji-neo-motion-fly-more-combo",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 66000,
@@ -551,9 +551,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 607999,
+          "price": null,
           "url": "https://everse.in/product/dji-matrice-4t-worry-free-plus-combo",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": null,
@@ -583,9 +583,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 539999,
+          "price": null,
           "url": "https://everse.in/product/dji-matrice-4e-worry-free-plus-combo",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": 493999,
@@ -610,9 +610,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 980000,
+          "price": null,
           "url": "https://everse.in/product/dji-matrice-350-rtk-m350-basic-combo-drone",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Airytek": {
           "price": null,
@@ -642,9 +642,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 1380000,
+          "price": null,
           "url": "https://everse.in/product/dji-matrice-400",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Hobitech": {
           "price": 900000,
@@ -783,7 +783,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 41990,
+          "price": 50990,
           "url": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL",
           "scraped_ok": true
         },
@@ -937,7 +937,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 33990,
+          "price": 85980,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
@@ -959,7 +959,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 107990,
           "url": "https://www.amazon.in/DJI-Dual-Lens-Wide-Angle-Stabilization-ActiveTrack/dp/B0H2MRDB2C",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9588,
+          "price": 9488,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 26620,
+          "price": 27450,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,14 +1042,14 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 10949,
+          "price": 10909,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 10499,
           "url": "https://www.designinfo.in/p/dji-mic-mini-2-2-tx-1-rx-charging-case-combo-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 10949,
+          "price": 10909,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11988,
+          "price": 11999,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
