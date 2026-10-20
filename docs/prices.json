@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-19T05:52:41.921482+00:00",
+  "scraped_at": "2026-10-20T05:44:36.713525+00:00",
   "products": [
     {
       "id": 1,
@@ -135,7 +135,7 @@
       "group": "v1",
       "prices": {
         "Jetayu": {
-          "price": 59999,
+          "price": 84999,
           "url": "https://jetayugadgets.com/products/dji-mini-3-fly-more-combo-drone-camera-with-rc",
           "scraped_ok": true
         },
@@ -199,7 +199,7 @@
       "group": "v1",
       "prices": {
         "Jetayu": {
-          "price": 84999,
+          "price": 108999,
           "url": "https://jetayugadgets.com/products/dji-mini-4-pro-drone-camera-fly-more-combo-dji-rc-2-34-mins",
           "scraped_ok": true
         },
@@ -546,12 +546,12 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 670899,
+          "price": 710999,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-4t/",
           "scraped_ok": true
         },
         "Everse": {
-          "price": 607999,
+          "price": 669999,
           "url": "https://everse.in/product/dji-matrice-4t-worry-free-plus-combo",
           "scraped_ok": true
         },
@@ -583,7 +583,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 539999,
+          "price": 589000,
           "url": "https://everse.in/product/dji-matrice-4e-worry-free-plus-combo",
           "scraped_ok": true
         },
@@ -676,9 +676,9 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": null,
+          "price": 82999,
           "url": "https://www.designinfo.in/p/dji-lito-x1-fly-more-combo-dji-rc-2-3-standard-batteries-combo-kit/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -778,7 +778,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 38499,
+          "price": 37499,
           "url": "https://jetayugadgets.com/products/dji-osmo-action-5-pro-adventure-combo-1",
           "scraped_ok": true
         },
@@ -800,7 +800,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 43999,
+          "price": 41999,
           "url": "https://jetayugadgets.com/products/dji-osmo-action-6-adventure-combo",
           "scraped_ok": true
         },
@@ -910,7 +910,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 44899,
+          "price": 42499,
           "url": "https://jetayugadgets.com/products/dji-osmo-pocket-4-standard-combo",
           "scraped_ok": true
         },
@@ -932,7 +932,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 58999,
+          "price": 52999,
           "url": "https://jetayugadgets.com/products/dji-osmo-pocket-4-creator-combo",
           "scraped_ok": true
         },
@@ -954,7 +954,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 63999,
+          "price": 62799,
           "url": "https://jetayugadgets.com/products/dji-osmo-pocket-4p-standard-combo",
           "scraped_ok": true
         },
@@ -976,7 +976,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 72499,
+          "price": 70999,
           "url": "https://www.jetayugadgets.com/products/dji-osmo-pocket-4p-vlog-combo-creator-combo",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9120,
+          "price": 9115,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1020,12 +1020,12 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 24999,
+          "price": 23499,
           "url": "https://jetayugadgets.com/products/dji-mic-3-2-tx-1-rx-charging-case",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 27400,
+          "price": 28900,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1037,7 +1037,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 10499,
+          "price": 9499,
           "url": "https://jetayugadgets.com/products/dji-mic-mini-2-2-tx-1-rx-charging-case",
           "scraped_ok": true
         },
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11740,
+          "price": 11720,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
@@ -1198,7 +1198,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 63990,
+          "price": 51990,
           "url": "https://www.amazon.in/dp/B0CS6J2648",
           "scraped_ok": true
         },
@@ -1264,9 +1264,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 79999,
           "url": "https://www.designinfo.in/p/insta360-x6-essentials-bundle-black/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     }
