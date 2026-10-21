@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-20T05:44:36.713525+00:00",
+  "scraped_at": "2026-10-21T05:48:34.406642+00:00",
   "products": [
     {
       "id": 1,
@@ -761,7 +761,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 34990,
+          "price": 35990,
           "url": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC",
           "scraped_ok": true
         },
@@ -805,7 +805,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 34990,
+          "price": 35990,
           "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
           "scraped_ok": true
         },
@@ -827,7 +827,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 21990,
+          "price": 30990,
           "url": "https://www.amazon.in/DJI-Osmo-Action-2-64G/dp/B0FBFZM45S",
           "scraped_ok": true
         },
@@ -871,7 +871,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 64990,
+          "price": 51990,
           "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
           "scraped_ok": true
         },
@@ -937,7 +937,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 33990,
+          "price": 85923,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
@@ -986,7 +986,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 78999,
+          "price": 78499,
           "url": "https://www.designinfo.in/p/dji-osmo-pocket-4p-vlog-combo/",
           "scraped_ok": true
         }
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9115,
+          "price": 9070,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 28900,
+          "price": 28190,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1047,7 +1047,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 10499,
+          "price": 9999,
           "url": "https://www.designinfo.in/p/dji-mic-mini-2-2-tx-1-rx-charging-case-combo-kit/",
           "scraped_ok": true
         }
