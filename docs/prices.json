@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-21T05:48:34.406642+00:00",
+  "scraped_at": "2026-10-22T05:51:23.542546+00:00",
   "products": [
     {
       "id": 1,
@@ -66,9 +66,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 48999,
+          "price": null,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 44999,
@@ -805,7 +805,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 35990,
+          "price": 3299,
           "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
           "scraped_ok": true
         },
@@ -981,7 +981,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 3589,
+          "price": 64990,
           "url": "https://www.amazon.in/DJI-Osmo-Pocket-4P-Wide-Angle/dp/B0H8K1VM1Q",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9070,
+          "price": 9241,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 28190,
+          "price": 26979,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11720,
+          "price": 11716,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
