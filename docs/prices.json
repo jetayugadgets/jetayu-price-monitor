@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-22T05:51:23.542546+00:00",
+  "scraped_at": "2026-10-23T05:49:54.426109+00:00",
   "products": [
     {
       "id": 1,
@@ -66,9 +66,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 48999,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 44999,
@@ -546,7 +546,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 710999,
+          "price": 712950,
           "url": "https://www.xboom.in/shop/drones/drones-series/matrice-series/dji-matrice-4t/",
           "scraped_ok": true
         },
@@ -578,7 +578,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 596599,
+          "price": 608999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-enterprise-series/dji-matrice-4e/",
           "scraped_ok": true
         },
@@ -854,9 +854,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 32699,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-osmo-nano-standard-combo-128gb/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -871,7 +871,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 64990,
           "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
           "scraped_ok": true
         },
@@ -937,12 +937,12 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 85923,
+          "price": 33990,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 59899,
+          "price": 57999,
           "url": "https://www.designinfo.in/p/dji-osmo-pocket-4-creator-combo/",
           "scraped_ok": true
         }
@@ -981,7 +981,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 64990,
+          "price": 33990,
           "url": "https://www.amazon.in/DJI-Osmo-Pocket-4P-Wide-Angle/dp/B0H8K1VM1Q",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9241,
+          "price": 9388,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 26979,
+          "price": 26665,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11716,
+          "price": 11689,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
