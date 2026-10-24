@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-23T05:49:54.426109+00:00",
+  "scraped_at": "2026-10-24T05:32:12.973457+00:00",
   "products": [
     {
       "id": 1,
@@ -66,7 +66,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 48999,
+          "price": 261905,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
           "scraped_ok": true
         },
@@ -103,7 +103,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 62999,
+          "price": 69299,
           "url": "https://www.xboom.in/shop/brands/dji/dji-drone/dji-mini-4k-fly-more-combo/",
           "scraped_ok": true
         },
@@ -172,7 +172,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 83900,
+          "price": 87900,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-flip/dji-flip-flymore-combo-dji-rc-2/",
           "scraped_ok": true
         },
@@ -236,7 +236,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 109999,
+          "price": 130999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-drone-camera-fly-more-combo-plus/",
           "scraped_ok": true
         },
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 25000,
+          "price": 56999,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -805,7 +805,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 3299,
+          "price": 44880,
           "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
           "scraped_ok": true
         },
@@ -854,9 +854,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": null,
+          "price": 32699,
           "url": "https://www.designinfo.in/p/dji-osmo-nano-standard-combo-128gb/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9388,
+          "price": 9350,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 26665,
+          "price": 26225,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 10900,
+          "price": 10999,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 10900,
+          "price": 10999,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
@@ -1076,7 +1076,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 11689,
+          "price": 11499,
           "url": "https://www.amazon.in/Mic-Mini-Wireless-Microphone-Charging/dp/B0HGD1GY67",
           "scraped_ok": true
         }
@@ -1198,7 +1198,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 63990,
           "url": "https://www.amazon.in/dp/B0CS6J2648",
           "scraped_ok": true
         },
