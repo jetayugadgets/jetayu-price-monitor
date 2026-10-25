@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-24T05:32:12.973457+00:00",
+  "scraped_at": "2026-10-25T05:48:48.234980+00:00",
   "products": [
     {
       "id": 1,
@@ -418,7 +418,7 @@
           "scraped_ok": true
         },
         "Airytek": {
-          "price": 389999,
+          "price": 430000,
           "url": "https://airytek.com/dji-mavic-4-pro-drone-with-512gb-creator-combo/",
           "scraped_ok": true
         },
@@ -805,7 +805,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 44880,
+          "price": 2699,
           "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
           "scraped_ok": true
         },
@@ -871,7 +871,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 64990,
+          "price": 51990,
           "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
           "scraped_ok": true
         },
@@ -937,7 +937,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 33990,
+          "price": 85923,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9350,
+          "price": 9249,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 26225,
+          "price": 30999,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 10999,
+          "price": 10949,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1059,7 +1059,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 10999,
+          "price": 10949,
           "url": "https://www.amazon.in/Mic-Mini-Microphone-Bluetooth-Cancelling/dp/B0H164H3T7",
           "scraped_ok": true
         },
