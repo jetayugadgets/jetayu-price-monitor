@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-28T06:42:28.148887+00:00",
+  "scraped_at": "2026-10-29T06:49:52.356076+00:00",
   "products": [
     {
       "id": 1,
@@ -66,7 +66,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 190475,
+          "price": 261905,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
           "scraped_ok": true
         },
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 16833,
+          "price": 62999,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -893,7 +893,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 64990,
+          "price": 51990,
           "url": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9189,
+          "price": 9198,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 28800,
+          "price": 33900,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9189,
+          "price": 9198,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1064,9 +1064,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": null,
+          "price": 8999,
           "url": "https://www.designinfo.in/p/dji-mic-mini-2-2-tx-1-mobile-rx-charging-case/",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -1137,7 +1137,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 11999,
+          "price": 11499,
           "url": "https://www.designinfo.in/p/dji-osmo-mobile-8-smartphone-gimbal/",
           "scraped_ok": true
         }
