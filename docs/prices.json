@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-29T06:49:52.356076+00:00",
+  "scraped_at": "2026-10-30T06:54:06.842368+00:00",
   "products": [
     {
       "id": 1,
@@ -66,7 +66,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 261905,
+          "price": 595238,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
           "scraped_ok": true
         },
@@ -108,7 +108,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 64899,
+          "price": 70000,
           "url": "https://everse.in/product/dji-mini-4k-fly-more-combo",
           "scraped_ok": true
         },
@@ -219,7 +219,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 103990,
+          "price": 109990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
           "scraped_ok": true
         }
@@ -251,7 +251,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 122990,
+          "price": 126490,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-plus-dji-rc-2/",
           "scraped_ok": true
         },
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 62999,
+          "price": 16833,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -805,7 +805,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 2699,
+          "price": 44880,
           "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
           "scraped_ok": true
         },
@@ -937,12 +937,12 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 85923,
+          "price": 33990,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 57999,
+          "price": 56999,
           "url": "https://www.designinfo.in/p/dji-osmo-pocket-4-creator-combo/",
           "scraped_ok": true
         }
@@ -981,12 +981,12 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 33990,
+          "price": 4999,
           "url": "https://www.amazon.in/DJI-Osmo-Pocket-4P-Wide-Angle/dp/B0H8K1VM1Q",
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 77999,
+          "price": 76999,
           "url": "https://www.designinfo.in/p/dji-osmo-pocket-4p-vlog-combo/",
           "scraped_ok": true
         }
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9198,
+          "price": 9149,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 33900,
+          "price": 28800,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9198,
+          "price": 9149,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1115,7 +1115,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 11990,
+          "price": 9590,
           "url": "https://www.amazon.in/DJI-Stabilizer-Tracking-Lighting-Extension/dp/B07FTG84SW",
           "scraped_ok": true
         },
