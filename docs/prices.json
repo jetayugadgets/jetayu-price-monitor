@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-02T07:28:42.646642+00:00",
+  "scraped_at": "2026-11-03T07:43:11.088685+00:00",
   "products": [
     {
       "id": 1,
@@ -66,7 +66,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 720000,
+          "price": 139048,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
           "scraped_ok": true
         },
@@ -219,7 +219,7 @@
           "scraped_ok": true
         },
         "Hobitech": {
-          "price": 109990,
+          "price": 116990,
           "url": "https://hobitech.in/product/dji-mini-4-pro-fly-more-combo-dji-rc-2/",
           "scraped_ok": true
         }
@@ -783,7 +783,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 50990,
+          "price": 50970,
           "url": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL",
           "scraped_ok": true
         },
@@ -810,7 +810,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 48999,
+          "price": 47999,
           "url": "https://www.designinfo.in/p/dji-osmo-action-6-adventure-combo/",
           "scraped_ok": true
         }
@@ -871,7 +871,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 64990,
+          "price": 51990,
           "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
           "scraped_ok": true
         },
@@ -893,7 +893,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 64990,
           "url": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
           "scraped_ok": true
         },
@@ -937,7 +937,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 85923,
+          "price": 33990,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9422,
+          "price": 9344,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9422,
+          "price": 9344,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1115,7 +1115,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9590,
+          "price": 11990,
           "url": "https://www.amazon.in/DJI-Stabilizer-Tracking-Lighting-Extension/dp/B07FTG84SW",
           "scraped_ok": true
         },
