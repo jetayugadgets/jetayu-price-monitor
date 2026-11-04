@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-03T07:43:11.088685+00:00",
+  "scraped_at": "2026-11-04T07:20:41.851461+00:00",
   "products": [
     {
       "id": 1,
@@ -123,9 +123,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 49999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-4k-drone-fly-more-combo-3-battery-charging-hub-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -155,9 +155,9 @@
           "scraped_ok": false
         },
         "Designinfo": {
-          "price": 79999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-3-drone-with-dji-rc-remote-fly-more-combo/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -283,9 +283,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 115999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mini-5-pro-fly-more-combo-series-drone-36-min-battery/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -403,7 +403,7 @@
       "group": "v1",
       "prices": {
         "Jetayu": {
-          "price": 434499,
+          "price": 384999,
           "url": "https://jetayugadgets.com/products/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2",
           "scraped_ok": true
         },
@@ -492,9 +492,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 64999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -529,9 +529,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 64999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-neo-motion-fly-more-combo-goggles-n3-rc-motion-3-controller-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -659,9 +659,9 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 49999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-lito-1-drone-with-rc-n3-remote/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -671,14 +671,14 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 112999,
+          "price": 97999,
           "url": "https://jetayugadgets.com/products/dji-lito-x1-fly-more-combo-dji-rc-2",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 82999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-lito-x1-fly-more-combo-dji-rc-2-3-standard-batteries-combo-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -715,9 +715,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 99999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -732,9 +732,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 99999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-avata-360-with-rc-2/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -749,9 +749,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 109999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-avata-360-motion-fly-more-combo-rc-motion-3-goggle-n3-3-batteries-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -783,7 +783,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 50970,
+          "price": 50930,
           "url": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL",
           "scraped_ok": true
         },
@@ -871,7 +871,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 64990,
           "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9344,
+          "price": 9294,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 33750,
+          "price": 26740,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9344,
+          "price": 9294,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1115,7 +1115,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 11990,
+          "price": 1199,
           "url": "https://www.amazon.in/DJI-Stabilizer-Tracking-Lighting-Extension/dp/B07FTG84SW",
           "scraped_ok": true
         },
