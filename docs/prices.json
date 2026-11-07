@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-06T07:46:27.119137+00:00",
+  "scraped_at": "2026-11-07T06:53:44.342860+00:00",
   "products": [
     {
       "id": 1,
@@ -66,7 +66,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 238095,
+          "price": 261905,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
           "scraped_ok": true
         },
@@ -209,7 +209,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 104999,
+          "price": 113400,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-fly-more-combo-37-min/",
           "scraped_ok": true
         },
@@ -578,9 +578,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 608999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-enterprise-series/dji-matrice-4e/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 589000,
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 62999,
+          "price": 16833,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -761,7 +761,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 44650,
+          "price": 41990,
           "url": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC",
           "scraped_ok": true
         },
@@ -805,7 +805,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 44650,
+          "price": 4190,
           "url": "https://www.amazon.in/DJI-Adventure-Variable-Aperture-Cold-Resistant/dp/B0FM3YTRGD",
           "scraped_ok": true
         },
@@ -827,7 +827,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 30990,
+          "price": 22990,
           "url": "https://www.amazon.in/DJI-Osmo-Action-2-64G/dp/B0FBFZM45S",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9240,
+          "price": 9230,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9240,
+          "price": 9230,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9240,
+          "price": 9230,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
