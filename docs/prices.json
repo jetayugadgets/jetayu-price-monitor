@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-08T07:00:20.079029+00:00",
+  "scraped_at": "2026-11-09T07:44:39.609972+00:00",
   "products": [
     {
       "id": 1,
@@ -66,7 +66,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 332380,
+          "price": 261905,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
           "scraped_ok": true
         },
@@ -209,9 +209,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 113400,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-fly-more-combo-37-min/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Airytek": {
           "price": 104999,
@@ -236,9 +236,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 130999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-4-pro-drone-camera-fly-more-combo-plus/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 115999,
@@ -578,9 +578,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 608999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-enterprise-series/dji-matrice-4e/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
           "price": 589000,
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 5299,
+          "price": 62999,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -761,7 +761,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 44550,
+          "price": 44650,
           "url": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC",
           "scraped_ok": true
         },
@@ -783,7 +783,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 50930,
+          "price": 52100,
           "url": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL",
           "scraped_ok": true
         },
@@ -827,7 +827,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 22990,
+          "price": 24990,
           "url": "https://www.amazon.in/DJI-Osmo-Action-2-64G/dp/B0FBFZM45S",
           "scraped_ok": true
         },
@@ -849,7 +849,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 33990,
+          "price": 34990,
           "url": "https://www.amazon.in/Osmo-Nano-Standard-Combo-128GB/dp/B0G21XS8JX",
           "scraped_ok": true
         },
@@ -871,7 +871,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 52990,
           "url": "https://www.amazon.in/DJI-Stabilization-Rotatable-Touchscreen-Photography/dp/B0CG19QXWD",
           "scraped_ok": true
         },
@@ -893,7 +893,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 64822,
+          "price": 69990,
           "url": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
           "scraped_ok": true
         },
@@ -915,7 +915,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 33990,
+          "price": 35990,
           "url": "https://www.amazon.in/DJI-Standard-Tracking-Touchscreen-Stabilized/dp/B0FKTBGNR8",
           "scraped_ok": true
         },
@@ -937,7 +937,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 85923,
+          "price": 99990,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
@@ -959,7 +959,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 52990,
           "url": "https://www.amazon.in/DJI-Dual-Lens-Wide-Angle-Stabilization-ActiveTrack/dp/B0H2MRDB2C",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9499,
+          "price": 9490,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9499,
+          "price": 9490,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1242,7 +1242,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 38599,
+          "price": 39990,
           "url": "https://www.amazon.in/Insta360-Waterproof-Replaceable-Built-Stabilization/dp/B0F3P4G8SY",
           "scraped_ok": true
         },
