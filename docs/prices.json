@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-13T07:41:06.555406+00:00",
+  "scraped_at": "2026-11-14T07:27:36.154824+00:00",
   "products": [
     {
       "id": 1,
@@ -66,7 +66,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 190475,
+          "price": 720000,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
           "scraped_ok": true
         },
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 16833,
+          "price": 64999,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -783,7 +783,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 54990,
+          "price": 54900,
           "url": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL",
           "scraped_ok": true
         },
@@ -893,7 +893,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 52990,
+          "price": 69990,
           "url": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
           "scraped_ok": true
         },
@@ -937,7 +937,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 35990,
+          "price": 85990,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9422,
+          "price": 9389,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9422,
+          "price": 27490,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9422,
+          "price": 9389,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
