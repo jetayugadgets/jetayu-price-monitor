@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-16T07:45:14.245236+00:00",
+  "scraped_at": "2026-11-17T08:54:21.249919+00:00",
   "products": [
     {
       "id": 1,
@@ -66,7 +66,7 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 720000,
+          "price": 523810,
           "url": "https://www.xboom.in/shop/drone-guide/recreational/dji-mini-2-se-drone-camera/",
           "scraped_ok": true
         },
@@ -140,9 +140,9 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": 89500,
+          "price": null,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mini-3-fly-more-combo-remote-controller-with-screen/",
-          "scraped_ok": true
+          "scraped_ok": false
         },
         "Everse": {
           "price": 84999,
@@ -268,7 +268,7 @@
       "group": "v1",
       "prices": {
         "Jetayu": {
-          "price": 141999,
+          "price": 138499,
           "url": "https://jetayugadgets.com/products/dji-mini-5-pro-fly-more-combo-36-mins",
           "scraped_ok": true
         },
@@ -295,7 +295,7 @@
       "group": "v1",
       "prices": {
         "Jetayu": {
-          "price": 151999,
+          "price": 150899,
           "url": "https://jetayugadgets.com/products/dji-mini-5-pro-flymore-combo-plus-52-mins",
           "scraped_ok": true
         },
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 16833,
+          "price": 64999,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -778,7 +778,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 37499,
+          "price": 37999,
           "url": "https://jetayugadgets.com/products/dji-osmo-action-5-pro-adventure-combo-1",
           "scraped_ok": true
         },
@@ -800,7 +800,7 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 41999,
+          "price": 45999,
           "url": "https://jetayugadgets.com/products/dji-osmo-action-6-adventure-combo",
           "scraped_ok": true
         },
@@ -932,12 +932,12 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 52999,
+          "price": 58499,
           "url": "https://jetayugadgets.com/products/dji-osmo-pocket-4-creator-combo",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 35990,
+          "price": 85990,
           "url": "https://www.amazon.in/DJI-Tracking-Wireless-Touchscreen-Stabilized/dp/B0FKT9K6CB",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9486,
+          "price": 9346,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 27350,
+          "price": 11446,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9486,
+          "price": 9346,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1181,7 +1181,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 35499,
+          "price": 36499,
           "url": "https://www.designinfo.in/p/dji-rs-4-gimbal-stabilizer/",
           "scraped_ok": true
         }
