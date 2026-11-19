@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-18T08:19:11.199548+00:00",
+  "scraped_at": "2026-11-19T08:30:21.915810+00:00",
   "products": [
     {
       "id": 1,
@@ -278,9 +278,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": null,
+          "price": 139999,
           "url": "https://everse.in/product/mini-5-pro-combo-36-min",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Designinfo": {
           "price": 115999,
@@ -364,7 +364,7 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": 230000,
+          "price": 295000,
           "url": "https://everse.in/product/dji-mavic-4-pro",
           "scraped_ok": true
         }
@@ -693,7 +693,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 64999,
+          "price": 14063,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -783,7 +783,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 54900,
+          "price": 54990,
           "url": "https://www.amazon.in/DJI-Adventure-Batteries-Stabilization-Touchscreens/dp/B07FW4CZZL",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9484,
+          "price": 9473,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 11446,
+          "price": 9473,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,14 +1042,14 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9484,
+          "price": 9473,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 9999,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-mic-mini-2-2-tx-1-rx-charging-case-combo-kit/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -1098,9 +1098,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 5699,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-osmo-mobile-7-smartphone-gimbal-stabilizer-dji-om7/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -1120,9 +1120,9 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 8499,
+          "price": null,
           "url": "https://www.designinfo.in/p/dji-om-7p-osmo-mobile-7p-smartphone-mobile-gimbal/",
-          "scraped_ok": true
+          "scraped_ok": false
         }
       }
     },
@@ -1181,7 +1181,7 @@
           "scraped_ok": true
         },
         "Designinfo": {
-          "price": 36499,
+          "price": 37499,
           "url": "https://www.designinfo.in/p/dji-rs-4-gimbal-stabilizer/",
           "scraped_ok": true
         }
