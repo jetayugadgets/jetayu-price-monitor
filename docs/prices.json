@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-23T08:43:38.100319+00:00",
+  "scraped_at": "2026-11-24T10:44:28.626629+00:00",
   "products": [
     {
       "id": 1,
@@ -305,9 +305,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": null,
+          "price": 154999,
           "url": "https://everse.in/product/dji-mini-5-pro",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Airytek": {
           "price": 144999,
@@ -332,14 +332,14 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 194999,
           "url": "https://www.xboom.in/shop/drone-shop-by-price/rs-1-3l-rs-1-5l/dji-air-3s-fly-more-combo-dji-rc-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
-          "price": null,
+          "price": 186999,
           "url": "https://everse.in/product/dji-air-3s-fly-more-combo-with-smart-controller",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Airytek": {
           "price": 164999,
@@ -364,9 +364,9 @@
           "scraped_ok": true
         },
         "Everse": {
-          "price": null,
+          "price": 295000,
           "url": "https://everse.in/product/dji-mavic-4-pro",
-          "scraped_ok": false
+          "scraped_ok": true
         }
       }
     },
@@ -381,14 +381,14 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 359999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-flymore-combo/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
-          "price": null,
+          "price": 369999,
           "url": "https://everse.in/product/dji-mavic-4-pro-drone-fly-more-combo-with-rc-2-remote-controller",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Hobitech": {
           "price": 339990,
@@ -408,14 +408,14 @@
           "scraped_ok": true
         },
         "Xboom": {
-          "price": null,
+          "price": 468999,
           "url": "https://www.xboom.in/shop/brands/dji/dji-consumer-drone/dji-mavic-4-pro-512gb-creator-combo-dji-rc-pro-2/",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Everse": {
-          "price": null,
+          "price": 469999,
           "url": "https://everse.in/product/dji-mavic-4-pro-drone-creator-combo-with-rc-pro-2-remote-controller",
-          "scraped_ok": false
+          "scraped_ok": true
         },
         "Airytek": {
           "price": 430000,
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9388,
+          "price": 9378,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1025,7 +1025,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 31900,
+          "price": 31650,
           "url": "https://www.amazon.in/DJI-Charging-Microphone-Recording-Anti-Interference/dp/B0FPG2MQSR",
           "scraped_ok": true
         }
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9388,
+          "price": 9378,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1115,7 +1115,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9590,
+          "price": 11990,
           "url": "https://www.amazon.in/DJI-Stabilizer-Tracking-Lighting-Extension/dp/B07FTG84SW",
           "scraped_ok": true
         },
@@ -1198,7 +1198,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 65000,
+          "price": 51990,
           "url": "https://www.amazon.in/dp/B0CS6J2648",
           "scraped_ok": true
         },
