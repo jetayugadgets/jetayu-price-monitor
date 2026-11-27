@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-11-26T09:15:19.153451+00:00",
+  "scraped_at": "2026-11-27T09:30:29.663354+00:00",
   "products": [
     {
       "id": 1,
@@ -688,12 +688,12 @@
       "group": "v2",
       "prices": {
         "Jetayu": {
-          "price": 114999,
+          "price": 125999,
           "url": "https://jetayugadgets.com/products/dji-avata-2-fly-more-combo-three-batteries",
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 5892,
+          "price": 64999,
           "url": "https://www.amazon.in/DJI-Batteries-MicroSD-Landing-Bundle/dp/B0D5J3FHCM",
           "scraped_ok": true
         },
@@ -761,7 +761,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 45990,
+          "price": 34990,
           "url": "https://www.amazon.in/DJI-Osmo-Action-Adventure-Combo/dp/B0C783J9WC",
           "scraped_ok": true
         },
@@ -893,7 +893,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 52990,
+          "price": 69990,
           "url": "https://www.amazon.in/DJI-Vlogging-Stabilization-Tracking-Photography/dp/B0CG19FGQ5",
           "scraped_ok": true
         },
@@ -1003,7 +1003,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9400,
+          "price": 9150,
           "url": "https://www.amazon.in/Wireless-Microphone-Recording-Cancelling-Smartphone/dp/B0H7JNZ8RL",
           "scraped_ok": true
         },
@@ -1042,7 +1042,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 9400,
+          "price": 9150,
           "url": "https://www.amazon.in/DJI-Mic-Mini-Charging-Case/dp/B0H8HTSNC1",
           "scraped_ok": true
         },
@@ -1176,7 +1176,7 @@
           "scraped_ok": true
         },
         "Amazon": {
-          "price": 51990,
+          "price": 55000,
           "url": "https://www.amazon.in/dp/B0CS6LC1ZQ",
           "scraped_ok": true
         },
@@ -1259,7 +1259,7 @@
       "group": "v2",
       "prices": {
         "Amazon": {
-          "price": 69990,
+          "price": 62990,
           "url": "https://www.amazon.in/Insta360-Essentials-Bundle-Black-Replaceable/dp/B0H8SQKQKP",
           "scraped_ok": true
         },
